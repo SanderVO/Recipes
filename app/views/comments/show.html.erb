@@ -6,7 +6,7 @@
 </p>
 
 <p>
-  <%= best_in_place @comment, :message, {type: :textarea} %>
+  <%= best_in_place_if current_user && current_user.can_edit?(@recipe.post), @comment, :message, {type: :textarea} %>
 </p>
 
 <%= link_to 'Edit', edit_comment_path(@comment) %> |

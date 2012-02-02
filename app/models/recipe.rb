@@ -17,4 +17,16 @@ class Recipe < ActiveRecord::Base
  			comments.map(&:message)
  		end
  	end
+ 	
+ 	def description_display_breaks
+ 		display_breaks description
+ 	end
+
+ 	def instructions_display_breaks
+ 		display_breaks instructions
+ 	end
+
+  def display_breaks text
+  	text.gsub(/\r?\n/, '<br />')
+  end
 end
