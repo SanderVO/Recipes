@@ -4,12 +4,11 @@
 		  <div class="topbar-inner">
 	          <%= link_to 'Recepten', root_path, {class: 'brand'} %>
 	          <ul class="nav">
-	          	<li><%= link_to 'Tijdlijn', timeline_path %></li>
 	          	<li><%= link_to 'Gebruikers', users_path %></li>
 	          	<li><%= link_to 'Recepten', recipes_path %></li>
 	          </ul>
 	       		<form class="pull-left" action="">
-	       	 		<input type="text" placeholder="Search">
+	       	 		<input type="text" placeholder="Zoeken">
 	      		</form>
 	          <h2 class="current-user">
 		          <%= link_to image_tag(current_user.image_url), current_user %>
@@ -27,6 +26,7 @@
 	          </ul>
 	          <h2 class="current-user">
 	          	<%= link_to 'Inloggen', signin_path %>
+
 	          </h2>
 	        </div>
 	      </div>
