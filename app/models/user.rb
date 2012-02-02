@@ -33,6 +33,11 @@ class User < ActiveRecord::Base
 	  end
 	end
 
+	def can_edit?(editable)
+		raise "#{editable} does not have a user" unless !editable.user.nil?
+		editable.user == self # || self.admin? needs to be implemented w/ migration
+	end
+
 	searchable do 
  		text :name
  	end
