@@ -2,7 +2,14 @@ class UsersController < ApplicationController
 	# GET /tags/1
   # GET /tags/1.json
   def show
+    # Load user
     @user = User.find(params[:id])
+
+    # Load user's timeline
+    @comments = Comment.where(:user_id => params[:id]).order('created_at desc')
+    @recipes = Recipe.where(:post_id => Post.where(:user_id => 101)).order('created_at desc')
+    @cookbooks = Cookbook.where(:post_id => Post.where(:user_id => 101)).order('created_at desc')
+    @timeline = (@comments + @recipes + @cookbooks).sort_by(&:created_at).reverse
 
     respond_to do |format|
       format.html # show.html.erb

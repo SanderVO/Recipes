@@ -29,5 +29,5 @@
 <% # Display this user's activity %>
 <p>
   <h2>Recente activiteit</h2>
-	<%= render :file => '/timeline/index', :@timeline => @timeline %>
+	<%= render 'timeline/timeline', :timeline => @timeline %>
 </p>

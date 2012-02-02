@@ -8,8 +8,17 @@
 /.bundle
 
 # Ignore images, we don want their fat asses all over Github
-/public/images
-/public/uploads
+# General images
+/public/images/*.jpg
+/public/images/*.png
+/public/images/*.jpeg
+/public/images/*.bmp
+
+# User images
+/public/uploads/user/*.jpg
+/public/uploads/user/*.png
+/public/uploads/user/*.jpeg
+/public/uploads/user/*.bmp
 
 # Ignore the default SQLite database.
 /db/*.sqlite3
