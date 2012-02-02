@@ -26,6 +26,7 @@ gem 'rmagick'
 gem 'sunspot_solr'
 
 gem 'sunspot_rails'
+#gem 'sunspot_rails', :git => 'git://github.com/alindeman/sunspot.git', :branch => 'solr_rake_tasks'
 
 gem 'kaminari'
 

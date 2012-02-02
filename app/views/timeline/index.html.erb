@@ -1,3 +1,4 @@
+<% #raise @timeline.to_yaml %>
 <%= title 'Nieuwsoverzicht' %>
 <% @timeline.each do |item| %>
 	<% if item.class.name == 'Comment' %>
