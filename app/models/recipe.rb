@@ -1,5 +1,5 @@
 class Recipe < ActiveRecord::Base
-	attr_accessible :name, :instructions, :preperation_time, :description, :image
+	attr_accessible :name, :instructions, :preperation_time, :description, :image, :course, :ingredients, :post_id, :recipe_id
 	mount_uploader :image, ImageUploader
 	acts_as :post
 	has_many :ingredients, :dependent => :destroy
