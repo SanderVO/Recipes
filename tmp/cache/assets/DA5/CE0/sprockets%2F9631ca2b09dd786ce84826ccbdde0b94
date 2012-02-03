@@ -1,9 +1,0 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1326884253.0101278:@value{	I"length:EFiàI"digest;
-F"%4830b513a7fe17859564e942c313fcebI"source;
-FI"à(function() {
-  this.JST || (this.JST = {});
-  this.JST["backbone/templates/recipes/edit"] = function(obj){var __p=[],print=function(){__p.push.apply(__p,arguments);};with(obj||{}){__p.push('<h1>Edit recipe</h1>\n\n<form id="edit-recipe" name="recipe">\n  <div class="field">\n    <label for="name"> name:</label>\n    <input type="text" name="name" id="name" value="', name ,'" >\n  </div>\n\n  <div class="field">\n    <label for="instructions"> instructions:</label>\n    <input type="text" name="instructions" id="instructions" value="', instructions ,'" >\n  </div>\n\n  <div class="field">\n    <label for="post_id"> post_id:</label>\n    <input type="text" name="post_id" id="post_id" value="', post_id ,'" >\n  </div>\n\n  <div class="field">\n    <label for="preperation_time"> preperation_time:</label>\n    <input type="text" name="preperation_time" id="preperation_time" value="', preperation_time ,'" >\n  </div>\n\n  <div class="field">\n    <label for="course"> course:</label>\n    <input type="text" name="course" id="course" value="', course ,'" >\n  </div>\n\n  <div class="actions">\n    <input type="submit" value="Update Recipe" />\n  </div>\n\n</form>\n\n<a href="#/index">Back</a>\n');}return __p.join('');};
-}).call(this);
-;
-FI"_version;
-F"%7f45b2ff69b094049cd0bd5ed6f7a68c

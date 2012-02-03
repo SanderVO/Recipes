@@ -1,1271 +1,469 @@
-Feb 3, 2012 12:48:32 AM org.apache.solr.core.SolrResourceLoader locateSolrHome
+Feb 3, 2012 5:09:06 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
 INFO: JNDI not configured for solr (NoInitialContextEx)
-Feb 3, 2012 12:48:32 AM org.apache.solr.core.SolrResourceLoader locateSolrHome
-INFO: using system property solr.solr.home: /Users/jurrestender/recepten/solr
-Feb 3, 2012 12:48:32 AM org.apache.solr.core.SolrResourceLoader <init>
-INFO: Solr home set to '/Users/jurrestender/recepten/solr/'
-Feb 3, 2012 12:48:32 AM org.apache.solr.servlet.SolrDispatchFilter init
+Feb 3, 2012 5:09:06 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: using system property solr.solr.home: /home/stefan/rorsites/Recipes/solr
+Feb 3, 2012 5:09:06 PM org.apache.solr.core.SolrResourceLoader <init>
+INFO: Solr home set to '/home/stefan/rorsites/Recipes/solr/'
+Feb 3, 2012 5:09:06 PM org.apache.solr.servlet.SolrDispatchFilter init
 INFO: SolrDispatchFilter.init()
-Feb 3, 2012 12:48:32 AM org.apache.solr.core.SolrResourceLoader locateSolrHome
+Feb 3, 2012 5:09:06 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
 INFO: JNDI not configured for solr (NoInitialContextEx)
-Feb 3, 2012 12:48:32 AM org.apache.solr.core.SolrResourceLoader locateSolrHome
-INFO: using system property solr.solr.home: /Users/jurrestender/recepten/solr
-Feb 3, 2012 12:48:32 AM org.apache.solr.core.CoreContainer$Initializer initialize
-INFO: looking for solr.xml: /Users/jurrestender/recepten/solr/solr.xml
-Feb 3, 2012 12:48:32 AM org.apache.solr.core.SolrResourceLoader <init>
-INFO: Solr home set to '/Users/jurrestender/recepten/solr/'
-Feb 3, 2012 12:48:32 AM org.apache.solr.core.SolrConfig initLibs
+Feb 3, 2012 5:09:06 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: using system property solr.solr.home: /home/stefan/rorsites/Recipes/solr
+Feb 3, 2012 5:09:06 PM org.apache.solr.core.CoreContainer$Initializer initialize
+INFO: looking for solr.xml: /home/stefan/rorsites/Recipes/solr/solr.xml
+Feb 3, 2012 5:09:06 PM org.apache.solr.core.SolrResourceLoader <init>
+INFO: Solr home set to '/home/stefan/rorsites/Recipes/solr/'
+Feb 3, 2012 5:09:06 PM org.apache.solr.core.SolrConfig initLibs
 INFO: Adding specified lib dirs to ClassLoader
-Feb 3, 2012 12:48:32 AM org.apache.solr.core.SolrConfig <init>
+Feb 3, 2012 5:09:07 PM org.apache.solr.core.SolrConfig <init>
 INFO: Loaded SolrConfig: solrconfig.xml
-Feb 3, 2012 12:48:32 AM org.apache.solr.core.SolrCore <init>
-INFO: Opening new SolrCore at /Users/jurrestender/recepten/solr/, dataDir=/Users/jurrestender/recepten/solr/data/development/
-Feb 3, 2012 12:48:32 AM org.apache.solr.schema.IndexSchema readSchema
+Feb 3, 2012 5:09:07 PM org.apache.solr.core.SolrCore <init>
+INFO: Opening new SolrCore at /home/stefan/rorsites/Recipes/solr/, dataDir=/home/stefan/rorsites/Recipes/solr/data/development/
+Feb 3, 2012 5:09:07 PM org.apache.solr.schema.IndexSchema readSchema
 INFO: Reading Solr Schema
-Feb 3, 2012 12:48:32 AM org.apache.solr.schema.IndexSchema readSchema
+Feb 3, 2012 5:09:07 PM org.apache.solr.schema.IndexSchema readSchema
 INFO: Schema name=sunspot
-Feb 3, 2012 12:48:32 AM org.apache.solr.util.plugin.AbstractPluginLoader load
+Feb 3, 2012 5:09:07 PM org.apache.solr.util.plugin.AbstractPluginLoader load
 INFO: created string: org.apache.solr.schema.StrField
-Feb 3, 2012 12:48:32 AM org.apache.solr.util.plugin.AbstractPluginLoader load
+Feb 3, 2012 5:09:07 PM org.apache.solr.util.plugin.AbstractPluginLoader load
 INFO: created tdouble: org.apache.solr.schema.TrieDoubleField
-Feb 3, 2012 12:48:32 AM org.apache.solr.util.plugin.AbstractPluginLoader load
+Feb 3, 2012 5:09:07 PM org.apache.solr.util.plugin.AbstractPluginLoader load
 INFO: created rand: org.apache.solr.schema.RandomSortField
-Feb 3, 2012 12:48:32 AM org.apache.solr.util.plugin.AbstractPluginLoader load
+Feb 3, 2012 5:09:07 PM org.apache.solr.util.plugin.AbstractPluginLoader load
 INFO: created null: org.apache.solr.analysis.StandardTokenizerFactory
-Feb 3, 2012 12:48:32 AM org.apache.solr.util.plugin.AbstractPluginLoader load
+Feb 3, 2012 5:09:07 PM org.apache.solr.util.plugin.AbstractPluginLoader load
 INFO: created null: org.apache.solr.analysis.StandardFilterFactory
-Feb 3, 2012 12:48:32 AM org.apache.solr.util.plugin.AbstractPluginLoader load
+Feb 3, 2012 5:09:07 PM org.apache.solr.util.plugin.AbstractPluginLoader load
 INFO: created null: org.apache.solr.analysis.LowerCaseFilterFactory
-Feb 3, 2012 12:48:32 AM org.apache.solr.util.plugin.AbstractPluginLoader load
+Feb 3, 2012 5:09:07 PM org.apache.solr.util.plugin.AbstractPluginLoader load
 INFO: created text: org.apache.solr.schema.TextField
-Feb 3, 2012 12:48:32 AM org.apache.solr.util.plugin.AbstractPluginLoader load
+Feb 3, 2012 5:09:07 PM org.apache.solr.util.plugin.AbstractPluginLoader load
 INFO: created boolean: org.apache.solr.schema.BoolField
-Feb 3, 2012 12:48:32 AM org.apache.solr.util.plugin.AbstractPluginLoader load
+Feb 3, 2012 5:09:07 PM org.apache.solr.util.plugin.AbstractPluginLoader load
 INFO: created date: org.apache.solr.schema.DateField
-Feb 3, 2012 12:48:32 AM org.apache.solr.util.plugin.AbstractPluginLoader load
+Feb 3, 2012 5:09:07 PM org.apache.solr.util.plugin.AbstractPluginLoader load
 INFO: created sdouble: org.apache.solr.schema.SortableDoubleField
-Feb 3, 2012 12:48:32 AM org.apache.solr.util.plugin.AbstractPluginLoader load
+Feb 3, 2012 5:09:07 PM org.apache.solr.util.plugin.AbstractPluginLoader load
 INFO: created sfloat: org.apache.solr.schema.SortableFloatField
-Feb 3, 2012 12:48:32 AM org.apache.solr.util.plugin.AbstractPluginLoader load
+Feb 3, 2012 5:09:07 PM org.apache.solr.util.plugin.AbstractPluginLoader load
 INFO: created sint: org.apache.solr.schema.SortableIntField
-Feb 3, 2012 12:48:32 AM org.apache.solr.util.plugin.AbstractPluginLoader load
+Feb 3, 2012 5:09:07 PM org.apache.solr.util.plugin.AbstractPluginLoader load
 INFO: created slong: org.apache.solr.schema.SortableLongField
-Feb 3, 2012 12:48:32 AM org.apache.solr.util.plugin.AbstractPluginLoader load
+Feb 3, 2012 5:09:07 PM org.apache.solr.util.plugin.AbstractPluginLoader load
 INFO: created tint: org.apache.solr.schema.TrieIntField
-Feb 3, 2012 12:48:32 AM org.apache.solr.util.plugin.AbstractPluginLoader load
+Feb 3, 2012 5:09:07 PM org.apache.solr.util.plugin.AbstractPluginLoader load
 INFO: created tfloat: org.apache.solr.schema.TrieFloatField
-Feb 3, 2012 12:48:32 AM org.apache.solr.util.plugin.AbstractPluginLoader load
+Feb 3, 2012 5:09:07 PM org.apache.solr.util.plugin.AbstractPluginLoader load
 INFO: created tdate: org.apache.solr.schema.TrieDateField
-Feb 3, 2012 12:48:32 AM org.apache.solr.schema.IndexSchema readSchema
+Feb 3, 2012 5:09:07 PM org.apache.solr.schema.IndexSchema readSchema
 INFO: default search field is text
-Feb 3, 2012 12:48:32 AM org.apache.solr.schema.IndexSchema readSchema
+Feb 3, 2012 5:09:07 PM org.apache.solr.schema.IndexSchema readSchema
 INFO: query parser default operator is AND
-Feb 3, 2012 12:48:32 AM org.apache.solr.schema.IndexSchema readSchema
+Feb 3, 2012 5:09:07 PM org.apache.solr.schema.IndexSchema readSchema
 INFO: unique key field: id
-Feb 3, 2012 12:48:32 AM org.apache.solr.core.JmxMonitoredMap <init>
+Feb 3, 2012 5:09:07 PM org.apache.solr.core.JmxMonitoredMap <init>
 INFO: No JMX servers found, not exposing Solr information with JMX.
-Feb 3, 2012 12:48:32 AM org.apache.solr.core.SolrCore initListeners
+Feb 3, 2012 5:09:07 PM org.apache.solr.core.SolrCore initListeners
 INFO: Added SolrEventListener: org.apache.solr.core.QuerySenderListener{queries=[]}
-Feb 3, 2012 12:48:32 AM org.apache.solr.core.SolrCore initListeners
+Feb 3, 2012 5:09:07 PM org.apache.solr.core.SolrCore initListeners
 INFO: Added SolrEventListener: org.apache.solr.core.QuerySenderListener{queries=[{q=solr rocks,start=0,rows=10}, {q=static firstSearcher warming query from solrconfig.xml}]}
-Feb 3, 2012 12:48:32 AM org.apache.solr.request.XSLTResponseWriter init
+Feb 3, 2012 5:09:07 PM org.apache.solr.core.SolrCore initIndex
+WARNING: Solr index directory '/home/stefan/rorsites/Recipes/solr/data/development/index' doesn't exist. Creating new index...
+Feb 3, 2012 5:09:07 PM org.apache.solr.core.SolrDeletionPolicy onInit
+INFO: SolrDeletionPolicy.onInit: commits:num=1
+	commit{dir=/home/stefan/rorsites/Recipes/solr/data/development/index,segFN=segments_1,version=1328285347360,generation=1,filenames=[segments_1]
+Feb 3, 2012 5:09:07 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1328285347360
+Feb 3, 2012 5:09:07 PM org.apache.solr.request.XSLTResponseWriter init
 INFO: xsltCacheLifetimeSeconds=5
-Feb 3, 2012 12:48:32 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+Feb 3, 2012 5:09:07 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
 INFO: created standard: solr.SearchHandler
-Feb 3, 2012 12:48:32 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+Feb 3, 2012 5:09:07 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
 INFO: created dismax: solr.SearchHandler
-Feb 3, 2012 12:48:32 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+Feb 3, 2012 5:09:07 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
 INFO: created partitioned: solr.SearchHandler
-Feb 3, 2012 12:48:32 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+Feb 3, 2012 5:09:07 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
 INFO: created /spell: solr.SearchHandler
-Feb 3, 2012 12:48:32 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+Feb 3, 2012 5:09:07 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
 INFO: created tvrh: org.apache.solr.handler.component.SearchHandler
-Feb 3, 2012 12:48:32 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+Feb 3, 2012 5:09:07 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
 INFO: adding lazy requestHandler: org.apache.solr.handler.extraction.ExtractingRequestHandler
-Feb 3, 2012 12:48:32 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+Feb 3, 2012 5:09:07 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
 INFO: created /update/extract: org.apache.solr.handler.extraction.ExtractingRequestHandler
-Feb 3, 2012 12:48:32 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+Feb 3, 2012 5:09:07 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
 INFO: created /terms: org.apache.solr.handler.component.SearchHandler
-Feb 3, 2012 12:48:32 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+Feb 3, 2012 5:09:07 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
 INFO: adding lazy requestHandler: solr.SearchHandler
-Feb 3, 2012 12:48:32 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+Feb 3, 2012 5:09:07 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
 INFO: created /elevate: solr.SearchHandler
-Feb 3, 2012 12:48:32 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+Feb 3, 2012 5:09:07 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
 INFO: created /update: solr.XmlUpdateRequestHandler
-Feb 3, 2012 12:48:32 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+Feb 3, 2012 5:09:07 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
 INFO: created /update/javabin: solr.BinaryUpdateRequestHandler
-Feb 3, 2012 12:48:32 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+Feb 3, 2012 5:09:07 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
 INFO: created /analysis/document: solr.DocumentAnalysisRequestHandler
-Feb 3, 2012 12:48:32 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+Feb 3, 2012 5:09:07 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
 INFO: created /analysis/field: solr.FieldAnalysisRequestHandler
-Feb 3, 2012 12:48:32 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+Feb 3, 2012 5:09:07 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
 INFO: adding lazy requestHandler: solr.CSVRequestHandler
-Feb 3, 2012 12:48:32 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+Feb 3, 2012 5:09:07 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
 INFO: created /update/csv: solr.CSVRequestHandler
-Feb 3, 2012 12:48:32 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+Feb 3, 2012 5:09:07 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
 INFO: created /admin/: org.apache.solr.handler.admin.AdminHandlers
-Feb 3, 2012 12:48:32 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+Feb 3, 2012 5:09:07 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
 INFO: created /admin/ping: PingRequestHandler
-Feb 3, 2012 12:48:32 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+Feb 3, 2012 5:09:07 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
 INFO: created /debug/dump: solr.DumpRequestHandler
-Feb 3, 2012 12:48:32 AM org.apache.solr.core.RequestHandlers initHandlersFromConfig
+Feb 3, 2012 5:09:07 PM org.apache.solr.core.RequestHandlers initHandlersFromConfig
 INFO: created /mlt: solr.MoreLikeThisHandler
-Feb 3, 2012 12:48:32 AM org.apache.solr.search.SolrIndexSearcher <init>
-INFO: Opening Searcher@72adf5be main
-Feb 3, 2012 12:48:32 AM org.apache.solr.update.DirectUpdateHandler2$CommitTracker <init>
+Feb 3, 2012 5:09:07 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@716de067 main
+Feb 3, 2012 5:09:07 PM org.apache.solr.update.DirectUpdateHandler2$CommitTracker <init>
 INFO: AutoCommit: disabled
-Feb 3, 2012 12:48:32 AM org.apache.solr.handler.component.SpellCheckComponent inform
+Feb 3, 2012 5:09:07 PM org.apache.solr.handler.component.SpellCheckComponent inform
 INFO: Initializing spell checkers
-Feb 3, 2012 12:48:32 AM org.apache.solr.spelling.AbstractLuceneSpellChecker init
+Feb 3, 2012 5:09:07 PM org.apache.solr.spelling.AbstractLuceneSpellChecker init
 INFO: Using WhitespaceAnalzyer for dictionary: default
-Feb 3, 2012 12:48:32 AM org.apache.solr.handler.component.SpellCheckComponent inform
+Feb 3, 2012 5:09:07 PM org.apache.solr.handler.component.SpellCheckComponent inform
 WARNING: No queryConverter defined, using default converter
-Feb 3, 2012 12:48:32 AM org.apache.solr.handler.component.QueryElevationComponent inform
-INFO: Loading QueryElevation from: /Users/jurrestender/recepten/solr/conf/elevate.xml
-Feb 3, 2012 12:48:32 AM org.apache.solr.handler.component.SearchHandler inform
-INFO: Adding  component:org.apache.solr.handler.component.QueryComponent@3041876
-Feb 3, 2012 12:48:32 AM org.apache.solr.handler.component.SearchHandler inform
-INFO: Adding  component:org.apache.solr.handler.component.FacetComponent@1e1ec86
-Feb 3, 2012 12:48:32 AM org.apache.solr.handler.component.SearchHandler inform
-INFO: Adding  component:org.apache.solr.handler.component.MoreLikeThisComponent@176f5261
-Feb 3, 2012 12:48:32 AM org.apache.solr.handler.component.SearchHandler inform
-INFO: Adding  component:org.apache.solr.handler.component.HighlightComponent@d896a4c
-Feb 3, 2012 12:48:32 AM org.apache.solr.handler.component.SearchHandler inform
-INFO: Adding  component:org.apache.solr.handler.component.StatsComponent@38a1aa85
-Feb 3, 2012 12:48:32 AM org.apache.solr.handler.component.SearchHandler inform
-INFO: Adding  debug component:org.apache.solr.handler.component.DebugComponent@7dc21ece
-Feb 3, 2012 12:48:32 AM org.apache.solr.handler.component.SearchHandler inform
-INFO: Adding  component:org.apache.solr.handler.component.QueryComponent@3041876
-Feb 3, 2012 12:48:32 AM org.apache.solr.handler.component.SearchHandler inform
-INFO: Adding  component:org.apache.solr.handler.component.FacetComponent@1e1ec86
-Feb 3, 2012 12:48:32 AM org.apache.solr.handler.component.SearchHandler inform
-INFO: Adding  component:org.apache.solr.handler.component.MoreLikeThisComponent@176f5261
-Feb 3, 2012 12:48:32 AM org.apache.solr.handler.component.SearchHandler inform
-INFO: Adding  component:org.apache.solr.handler.component.HighlightComponent@d896a4c
-Feb 3, 2012 12:48:32 AM org.apache.solr.handler.component.SearchHandler inform
-INFO: Adding  component:org.apache.solr.handler.component.StatsComponent@38a1aa85
-Feb 3, 2012 12:48:32 AM org.apache.solr.handler.component.SearchHandler inform
-INFO: Adding  debug component:org.apache.solr.handler.component.DebugComponent@7dc21ece
-Feb 3, 2012 12:48:32 AM org.apache.solr.handler.component.SearchHandler inform
-INFO: Adding  component:org.apache.solr.handler.component.QueryComponent@3041876
-Feb 3, 2012 12:48:32 AM org.apache.solr.handler.component.SearchHandler inform
-INFO: Adding  component:org.apache.solr.handler.component.FacetComponent@1e1ec86
-Feb 3, 2012 12:48:32 AM org.apache.solr.handler.component.SearchHandler inform
-INFO: Adding  component:org.apache.solr.handler.component.MoreLikeThisComponent@176f5261
-Feb 3, 2012 12:48:32 AM org.apache.solr.handler.component.SearchHandler inform
-INFO: Adding  component:org.apache.solr.handler.component.HighlightComponent@d896a4c
-Feb 3, 2012 12:48:32 AM org.apache.solr.handler.component.SearchHandler inform
-INFO: Adding  component:org.apache.solr.handler.component.StatsComponent@38a1aa85
-Feb 3, 2012 12:48:32 AM org.apache.solr.handler.component.SearchHandler inform
-INFO: Adding  debug component:org.apache.solr.handler.component.DebugComponent@7dc21ece
-Feb 3, 2012 12:48:32 AM org.apache.solr.handler.component.SearchHandler inform
-INFO: Adding  component:org.apache.solr.handler.component.QueryComponent@3041876
-Feb 3, 2012 12:48:32 AM org.apache.solr.handler.component.SearchHandler inform
-INFO: Adding  component:org.apache.solr.handler.component.FacetComponent@1e1ec86
-Feb 3, 2012 12:48:32 AM org.apache.solr.handler.component.SearchHandler inform
-INFO: Adding  component:org.apache.solr.handler.component.MoreLikeThisComponent@176f5261
-Feb 3, 2012 12:48:32 AM org.apache.solr.handler.component.SearchHandler inform
-INFO: Adding  component:org.apache.solr.handler.component.HighlightComponent@d896a4c
-Feb 3, 2012 12:48:32 AM org.apache.solr.handler.component.SearchHandler inform
-INFO: Adding  component:org.apache.solr.handler.component.StatsComponent@38a1aa85
-Feb 3, 2012 12:48:32 AM org.apache.solr.handler.component.SearchHandler inform
-INFO: Adding  component:org.apache.solr.handler.component.SpellCheckComponent@5374a6e2
-Feb 3, 2012 12:48:32 AM org.apache.solr.handler.component.SearchHandler inform
-INFO: Adding  debug component:org.apache.solr.handler.component.DebugComponent@7dc21ece
-Feb 3, 2012 12:48:32 AM org.apache.solr.handler.component.SearchHandler inform
-INFO: Adding  component:org.apache.solr.handler.component.QueryComponent@3041876
-Feb 3, 2012 12:48:32 AM org.apache.solr.handler.component.SearchHandler inform
-INFO: Adding  component:org.apache.solr.handler.component.FacetComponent@1e1ec86
-Feb 3, 2012 12:48:32 AM org.apache.solr.handler.component.SearchHandler inform
-INFO: Adding  component:org.apache.solr.handler.component.MoreLikeThisComponent@176f5261
-Feb 3, 2012 12:48:32 AM org.apache.solr.handler.component.SearchHandler inform
-INFO: Adding  component:org.apache.solr.handler.component.HighlightComponent@d896a4c
-Feb 3, 2012 12:48:32 AM org.apache.solr.handler.component.SearchHandler inform
-INFO: Adding  component:org.apache.solr.handler.component.StatsComponent@38a1aa85
-Feb 3, 2012 12:48:32 AM org.apache.solr.handler.component.SearchHandler inform
-INFO: Adding  component:org.apache.solr.handler.component.TermVectorComponent@f786a3c
-Feb 3, 2012 12:48:32 AM org.apache.solr.handler.component.SearchHandler inform
-INFO: Adding  debug component:org.apache.solr.handler.component.DebugComponent@7dc21ece
-Feb 3, 2012 12:48:32 AM org.apache.solr.handler.component.SearchHandler inform
-INFO: Adding  component:org.apache.solr.handler.component.TermsComponent@2a869113
-Feb 3, 2012 12:48:32 AM org.apache.solr.core.QuerySenderListener newSearcher
-INFO: QuerySenderListener sending requests to Searcher@72adf5be main
-Feb 3, 2012 12:48:32 AM org.apache.solr.core.CoreContainer register
+Feb 3, 2012 5:09:07 PM org.apache.solr.handler.component.QueryElevationComponent inform
+INFO: Loading QueryElevation from: /home/stefan/rorsites/Recipes/solr/conf/elevate.xml
+Feb 3, 2012 5:09:07 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.QueryComponent@4c2b349d
+Feb 3, 2012 5:09:07 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.FacetComponent@288b567c
+Feb 3, 2012 5:09:07 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.MoreLikeThisComponent@53dafbaf
+Feb 3, 2012 5:09:07 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.HighlightComponent@4dc1c92b
+Feb 3, 2012 5:09:07 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.StatsComponent@6d7e4dee
+Feb 3, 2012 5:09:07 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  debug component:org.apache.solr.handler.component.DebugComponent@7f2e7c6a
+Feb 3, 2012 5:09:07 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.QueryComponent@4c2b349d
+Feb 3, 2012 5:09:07 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.FacetComponent@288b567c
+Feb 3, 2012 5:09:07 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.MoreLikeThisComponent@53dafbaf
+Feb 3, 2012 5:09:07 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.HighlightComponent@4dc1c92b
+Feb 3, 2012 5:09:07 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.StatsComponent@6d7e4dee
+Feb 3, 2012 5:09:07 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  debug component:org.apache.solr.handler.component.DebugComponent@7f2e7c6a
+Feb 3, 2012 5:09:07 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.QueryComponent@4c2b349d
+Feb 3, 2012 5:09:07 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.FacetComponent@288b567c
+Feb 3, 2012 5:09:07 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.MoreLikeThisComponent@53dafbaf
+Feb 3, 2012 5:09:07 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.HighlightComponent@4dc1c92b
+Feb 3, 2012 5:09:07 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.StatsComponent@6d7e4dee
+Feb 3, 2012 5:09:07 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  debug component:org.apache.solr.handler.component.DebugComponent@7f2e7c6a
+Feb 3, 2012 5:09:07 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.QueryComponent@4c2b349d
+Feb 3, 2012 5:09:07 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.FacetComponent@288b567c
+Feb 3, 2012 5:09:07 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.MoreLikeThisComponent@53dafbaf
+Feb 3, 2012 5:09:07 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.HighlightComponent@4dc1c92b
+Feb 3, 2012 5:09:07 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.StatsComponent@6d7e4dee
+Feb 3, 2012 5:09:07 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.SpellCheckComponent@44ea5461
+Feb 3, 2012 5:09:07 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  debug component:org.apache.solr.handler.component.DebugComponent@7f2e7c6a
+Feb 3, 2012 5:09:07 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.QueryComponent@4c2b349d
+Feb 3, 2012 5:09:07 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.FacetComponent@288b567c
+Feb 3, 2012 5:09:07 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.MoreLikeThisComponent@53dafbaf
+Feb 3, 2012 5:09:07 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.HighlightComponent@4dc1c92b
+Feb 3, 2012 5:09:07 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.StatsComponent@6d7e4dee
+Feb 3, 2012 5:09:07 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.TermVectorComponent@7449cf9f
+Feb 3, 2012 5:09:07 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  debug component:org.apache.solr.handler.component.DebugComponent@7f2e7c6a
+Feb 3, 2012 5:09:07 PM org.apache.solr.handler.component.SearchHandler inform
+INFO: Adding  component:org.apache.solr.handler.component.TermsComponent@19de0b5e
+Feb 3, 2012 5:09:07 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener sending requests to Searcher@716de067 main
+Feb 3, 2012 5:09:07 PM org.apache.solr.core.CoreContainer register
 INFO: registering core: 
-Feb 3, 2012 12:48:32 AM org.apache.solr.servlet.SolrDispatchFilter init
-INFO: user.dir=/Users/jurrestender/.rvm/gems/ruby-1.9.3-rc1/gems/sunspot_solr-1.3.0/solr
-Feb 3, 2012 12:48:32 AM org.apache.solr.servlet.SolrDispatchFilter init
+Feb 3, 2012 5:09:07 PM org.apache.solr.servlet.SolrDispatchFilter init
+INFO: user.dir=/home/stefan/.rvm/gems/ruby-1.9.3-p0/gems/sunspot_solr-1.3.0/solr
+Feb 3, 2012 5:09:07 PM org.apache.solr.servlet.SolrDispatchFilter init
 INFO: SolrDispatchFilter.init() done
-Feb 3, 2012 12:48:32 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=null path=null params={start=0&event=firstSearcher&q=solr+rocks&rows=10} hits=0 status=0 QTime=35 
-Feb 3, 2012 12:48:32 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=null path=null params={event=firstSearcher&q=static+firstSearcher+warming+query+from+solrconfig.xml} hits=0 status=0 QTime=1 
-Feb 3, 2012 12:48:32 AM org.apache.solr.core.QuerySenderListener newSearcher
+Feb 3, 2012 5:09:07 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=null path=null params={start=0&event=firstSearcher&q=solr+rocks&rows=10} hits=0 status=0 QTime=28 
+Feb 3, 2012 5:09:07 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=null path=null params={event=firstSearcher&q=static+firstSearcher+warming+query+from+solrconfig.xml} hits=0 status=0 QTime=0 
+Feb 3, 2012 5:09:07 PM org.apache.solr.core.QuerySenderListener newSearcher
 INFO: QuerySenderListener done.
-Feb 3, 2012 12:48:32 AM org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener newSearcher
+Feb 3, 2012 5:09:07 PM org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener newSearcher
 INFO: Loading spell index for spellchecker: default
-Feb 3, 2012 12:48:32 AM org.apache.solr.core.SolrCore registerSearcher
-INFO: [] Registered new searcher Searcher@72adf5be main
-Feb 3, 2012 12:48:32 AM org.apache.solr.servlet.SolrServlet init
+Feb 3, 2012 5:09:07 PM org.apache.solr.servlet.SolrServlet init
 INFO: SolrServlet.init()
-Feb 3, 2012 12:48:32 AM org.apache.solr.core.SolrResourceLoader locateSolrHome
+Feb 3, 2012 5:09:07 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
 INFO: JNDI not configured for solr (NoInitialContextEx)
-Feb 3, 2012 12:48:32 AM org.apache.solr.core.SolrResourceLoader locateSolrHome
-INFO: using system property solr.solr.home: /Users/jurrestender/recepten/solr
-Feb 3, 2012 12:48:32 AM org.apache.solr.servlet.SolrServlet init
+Feb 3, 2012 5:09:07 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: using system property solr.solr.home: /home/stefan/rorsites/Recipes/solr
+Feb 3, 2012 5:09:07 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [] Registered new searcher Searcher@716de067 main
+Feb 3, 2012 5:09:07 PM org.apache.solr.servlet.SolrServlet init
 INFO: SolrServlet.init() done
-Feb 3, 2012 12:48:32 AM org.apache.solr.core.SolrResourceLoader locateSolrHome
+Feb 3, 2012 5:09:07 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
 INFO: JNDI not configured for solr (NoInitialContextEx)
-Feb 3, 2012 12:48:32 AM org.apache.solr.core.SolrResourceLoader locateSolrHome
-INFO: using system property solr.solr.home: /Users/jurrestender/recepten/solr
-Feb 3, 2012 12:48:32 AM org.apache.solr.servlet.SolrUpdateServlet init
+Feb 3, 2012 5:09:07 PM org.apache.solr.core.SolrResourceLoader locateSolrHome
+INFO: using system property solr.solr.home: /home/stefan/rorsites/Recipes/solr
+Feb 3, 2012 5:09:07 PM org.apache.solr.servlet.SolrUpdateServlet init
 INFO: SolrUpdateServlet.init() done
-Feb 3, 2012 12:48:42 AM org.apache.solr.core.SolrDeletionPolicy onInit
+Feb 3, 2012 5:09:32 PM org.apache.solr.core.SolrDeletionPolicy onInit
 INFO: SolrDeletionPolicy.onInit: commits:num=1
-	commit{dir=/Users/jurrestender/recepten/solr/data/development/index,segFN=segments_1,version=1328220278060,generation=1,filenames=[segments_1]
-Feb 3, 2012 12:48:42 AM org.apache.solr.core.SolrDeletionPolicy updateCommits
-INFO: newest commit = 1328220278060
-Feb 3, 2012 12:48:42 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 1]} 0 92
-Feb 3, 2012 12:48:42 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=92 
-Feb 3, 2012 12:48:42 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 2]} 0 1
-Feb 3, 2012 12:48:42 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:42 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 3]} 0 1
-Feb 3, 2012 12:48:42 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:42 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 4]} 0 1
-Feb 3, 2012 12:48:42 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:42 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 5]} 0 0
-Feb 3, 2012 12:48:42 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=0 
-Feb 3, 2012 12:48:42 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 6]} 0 1
-Feb 3, 2012 12:48:42 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:42 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 7]} 0 1
-Feb 3, 2012 12:48:42 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:42 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 8]} 0 1
-Feb 3, 2012 12:48:42 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:42 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 9]} 0 1
-Feb 3, 2012 12:48:42 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:42 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 10]} 0 1
-Feb 3, 2012 12:48:42 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:42 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 11]} 0 1
-Feb 3, 2012 12:48:42 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:42 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 12]} 0 0
-Feb 3, 2012 12:48:42 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=0 
-Feb 3, 2012 12:48:42 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 13]} 0 1
-Feb 3, 2012 12:48:42 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:42 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 14]} 0 1
-Feb 3, 2012 12:48:42 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:42 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 15]} 0 1
-Feb 3, 2012 12:48:42 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:42 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 16]} 0 1
-Feb 3, 2012 12:48:42 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:42 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 17]} 0 1
-Feb 3, 2012 12:48:42 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:42 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 18]} 0 1
-Feb 3, 2012 12:48:42 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:42 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 19]} 0 1
-Feb 3, 2012 12:48:42 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:42 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 20]} 0 1
-Feb 3, 2012 12:48:42 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:42 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 21]} 0 1
-Feb 3, 2012 12:48:42 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:42 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 22]} 0 0
-Feb 3, 2012 12:48:42 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=0 
-Feb 3, 2012 12:48:42 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 23]} 0 1
-Feb 3, 2012 12:48:42 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:42 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 24]} 0 1
-Feb 3, 2012 12:48:42 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:42 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 25]} 0 1
-Feb 3, 2012 12:48:42 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:42 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 26]} 0 0
-Feb 3, 2012 12:48:42 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=0 
-Feb 3, 2012 12:48:42 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 27]} 0 2
-Feb 3, 2012 12:48:42 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=2 
-Feb 3, 2012 12:48:42 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 28]} 0 0
-Feb 3, 2012 12:48:42 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=0 
-Feb 3, 2012 12:48:42 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 29]} 0 1
-Feb 3, 2012 12:48:42 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:42 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 30]} 0 1
-Feb 3, 2012 12:48:42 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:42 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 31]} 0 1
-Feb 3, 2012 12:48:42 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 32]} 0 0
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=0 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 33]} 0 1
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 34]} 0 0
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=0 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 35]} 0 0
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=0 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 36]} 0 1
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 37]} 0 1
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 38]} 0 1
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 39]} 0 1
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 40]} 0 0
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=0 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 41]} 0 1
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 42]} 0 1
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 43]} 0 0
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=0 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 44]} 0 1
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 45]} 0 0
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=0 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 46]} 0 1
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 47]} 0 0
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=0 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 48]} 0 0
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=0 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 49]} 0 1
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 50]} 0 0
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=0 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 51]} 0 1
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 52]} 0 1
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 53]} 0 0
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=0 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 54]} 0 1
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 55]} 0 0
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=0 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 56]} 0 0
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=0 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 57]} 0 1
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 58]} 0 0
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=0 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 59]} 0 1
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 60]} 0 0
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=0 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 61]} 0 1
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 62]} 0 0
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=0 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 63]} 0 1
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 64]} 0 0
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=0 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 65]} 0 1
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 66]} 0 1
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 67]} 0 1
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 68]} 0 0
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=0 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 69]} 0 1
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 70]} 0 0
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=0 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 71]} 0 1
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 72]} 0 0
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=0 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 73]} 0 1
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 74]} 0 1
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 75]} 0 0
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=0 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 76]} 0 1
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 77]} 0 1
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 78]} 0 1
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 79]} 0 1
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 80]} 0 0
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=0 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 81]} 0 1
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 82]} 0 1
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 83]} 0 1
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 84]} 0 1
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 85]} 0 1
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 86]} 0 0
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=0 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 87]} 0 0
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=0 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 88]} 0 0
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=0 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 89]} 0 1
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 90]} 0 0
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=0 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 91]} 0 1
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 92]} 0 1
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 93]} 0 0
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=0 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 94]} 0 1
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 95]} 0 1
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 96]} 0 0
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=0 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 97]} 0 0
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=0 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 98]} 0 1
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 99]} 0 0
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=0 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 100]} 0 1
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 1]} 0 1
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 2]} 0 1
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 3]} 0 1
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 4]} 0 2
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=2 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 5]} 0 1
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 6]} 0 1
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 7]} 0 1
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 8]} 0 1
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 9]} 0 1
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 10]} 0 1
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 11]} 0 2
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=2 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 12]} 0 1
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 13]} 0 1
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 14]} 0 1
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:43 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 15]} 0 1
-Feb 3, 2012 12:48:43 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 16]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 17]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 18]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 19]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 20]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 21]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 22]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 23]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 24]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 25]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 26]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 27]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 28]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 29]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 30]} 0 2
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=2 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 31]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 32]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 33]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 34]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 35]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 36]} 0 2
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=2 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 37]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 38]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 39]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 40]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 41]} 0 2
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=2 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 42]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 43]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 44]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 45]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 46]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 47]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 48]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 49]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 50]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 51]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 52]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 53]} 0 2
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=2 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 54]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 55]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 56]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 57]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 58]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 59]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 60]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 61]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 62]} 0 0
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=0 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 63]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 64]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 65]} 0 0
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=0 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 66]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 67]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 68]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 69]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 70]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 71]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 72]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 73]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 74]} 0 0
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=0 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 75]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 76]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 77]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 78]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 79]} 0 2
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=2 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 80]} 0 0
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=0 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 81]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 82]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 83]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 84]} 0 0
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=0 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 85]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 86]} 0 0
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=0 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 87]} 0 0
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=0 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 88]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 89]} 0 0
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=0 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 90]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 91]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 92]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:44 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 93]} 0 1
-Feb 3, 2012 12:48:44 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:45 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 94]} 0 1
-Feb 3, 2012 12:48:45 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:45 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 95]} 0 1
-Feb 3, 2012 12:48:45 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:45 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 96]} 0 1
-Feb 3, 2012 12:48:45 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:45 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 97]} 0 1
-Feb 3, 2012 12:48:45 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:45 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 98]} 0 1
-Feb 3, 2012 12:48:45 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:48:45 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 99]} 0 0
-Feb 3, 2012 12:48:45 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=0 
-Feb 3, 2012 12:48:45 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 100]} 0 1
-Feb 3, 2012 12:48:45 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:49:09 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {deleteByQuery=type:Recipe} 0 1
-Feb 3, 2012 12:49:09 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=1 
-Feb 3, 2012 12:49:09 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 1, Recipe 2, Recipe 3, Recipe 4, Recipe 5, Recipe 6, Recipe 7, Recipe 8, ... (8 added)]} 0 31
-Feb 3, 2012 12:49:09 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=31 
-Feb 3, 2012 12:49:09 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[Recipe 51, Recipe 52, Recipe 53, Recipe 54, Recipe 55, Recipe 56, Recipe 57, Recipe 58, ... (8 added)]} 0 26
-Feb 3, 2012 12:49:09 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=26 
-Feb 3, 2012 12:49:09 AM org.apache.solr.update.DirectUpdateHandler2 commit
+	commit{dir=/home/stefan/rorsites/Recipes/solr/data/development/index,segFN=segments_1,version=1328285347360,generation=1,filenames=[segments_1]
+Feb 3, 2012 5:09:32 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1328285347360
+Feb 3, 2012 5:09:32 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: {deleteByQuery=type:Recipe} 0 36
+Feb 3, 2012 5:09:32 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=36 
+Feb 3, 2012 5:09:32 PM org.apache.solr.update.DirectUpdateHandler2 commit
 INFO: start commit(optimize=false,waitFlush=false,waitSearcher=true,expungeDeletes=false)
-Feb 3, 2012 12:49:09 AM org.apache.solr.core.SolrDeletionPolicy onCommit
-INFO: SolrDeletionPolicy.onCommit: commits:num=2
-	commit{dir=/Users/jurrestender/recepten/solr/data/development/index,segFN=segments_1,version=1328220278060,generation=1,filenames=[segments_1]
-	commit{dir=/Users/jurrestender/recepten/solr/data/development/index,segFN=segments_2,version=1328220278061,generation=2,filenames=[_0.nrm, _0.tis, _0.fnm, _0.tii, _0.frq, _0_1.del, segments_2, _0.fdx, _0.prx, _0.fdt]
-Feb 3, 2012 12:49:09 AM org.apache.solr.core.SolrDeletionPolicy updateCommits
-INFO: newest commit = 1328220278061
-Feb 3, 2012 12:49:09 AM org.apache.solr.search.SolrIndexSearcher <init>
-INFO: Opening Searcher@1faac07d main
-Feb 3, 2012 12:49:09 AM org.apache.solr.update.DirectUpdateHandler2 commit
+Feb 3, 2012 5:09:32 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@3b5b123b main
+Feb 3, 2012 5:09:32 PM org.apache.solr.update.DirectUpdateHandler2 commit
 INFO: end_commit_flush
-Feb 3, 2012 12:49:09 AM org.apache.solr.search.SolrIndexSearcher warm
-INFO: autowarming Searcher@1faac07d main from Searcher@72adf5be main
+Feb 3, 2012 5:09:32 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@3b5b123b main from Searcher@716de067 main
 	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
-Feb 3, 2012 12:49:09 AM org.apache.solr.search.SolrIndexSearcher warm
-INFO: autowarming result for Searcher@1faac07d main
+Feb 3, 2012 5:09:32 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@3b5b123b main
 	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
-Feb 3, 2012 12:49:09 AM org.apache.solr.search.SolrIndexSearcher warm
-INFO: autowarming Searcher@1faac07d main from Searcher@72adf5be main
+Feb 3, 2012 5:09:32 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@3b5b123b main from Searcher@716de067 main
 	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
-Feb 3, 2012 12:49:09 AM org.apache.solr.search.SolrIndexSearcher warm
-INFO: autowarming result for Searcher@1faac07d main
+Feb 3, 2012 5:09:32 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@3b5b123b main
 	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
-Feb 3, 2012 12:49:09 AM org.apache.solr.search.SolrIndexSearcher warm
-INFO: autowarming Searcher@1faac07d main from Searcher@72adf5be main
+Feb 3, 2012 5:09:32 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@3b5b123b main from Searcher@716de067 main
 	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=2,evictions=0,size=2,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
-Feb 3, 2012 12:49:09 AM org.apache.solr.search.SolrIndexSearcher warm
-INFO: autowarming result for Searcher@1faac07d main
+Feb 3, 2012 5:09:32 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@3b5b123b main
 	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
-Feb 3, 2012 12:49:09 AM org.apache.solr.search.SolrIndexSearcher warm
-INFO: autowarming Searcher@1faac07d main from Searcher@72adf5be main
+Feb 3, 2012 5:09:32 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@3b5b123b main from Searcher@716de067 main
 	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
-Feb 3, 2012 12:49:09 AM org.apache.solr.search.SolrIndexSearcher warm
-INFO: autowarming result for Searcher@1faac07d main
+Feb 3, 2012 5:09:32 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@3b5b123b main
 	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
-Feb 3, 2012 12:49:09 AM org.apache.solr.core.QuerySenderListener newSearcher
-INFO: QuerySenderListener sending requests to Searcher@1faac07d main
-Feb 3, 2012 12:49:09 AM org.apache.solr.core.QuerySenderListener newSearcher
+Feb 3, 2012 5:09:32 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener sending requests to Searcher@3b5b123b main
+Feb 3, 2012 5:09:32 PM org.apache.solr.core.QuerySenderListener newSearcher
 INFO: QuerySenderListener done.
-Feb 3, 2012 12:49:09 AM org.apache.solr.core.SolrCore registerSearcher
-INFO: [] Registered new searcher Searcher@1faac07d main
-Feb 3, 2012 12:49:09 AM org.apache.solr.search.SolrIndexSearcher close
-INFO: Closing Searcher@72adf5be main
+Feb 3, 2012 5:09:32 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [] Registered new searcher Searcher@3b5b123b main
+Feb 3, 2012 5:09:32 PM org.apache.solr.search.SolrIndexSearcher close
+INFO: Closing Searcher@716de067 main
 	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
 	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
 	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=2,evictions=0,size=2,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
 	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
-Feb 3, 2012 12:49:09 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {commit=} 0 131
-Feb 3, 2012 12:49:09 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=131 
-Feb 3, 2012 12:49:09 AM org.apache.solr.core.SolrDeletionPolicy onInit
-INFO: SolrDeletionPolicy.onInit: commits:num=1
-	commit{dir=/Users/jurrestender/recepten/solr/data/development/index,segFN=segments_2,version=1328220278061,generation=2,filenames=[_0.nrm, _0.tis, _0.fnm, _0.tii, _0.frq, _0_1.del, segments_2, _0.fdx, _0.prx, _0.fdt]
-Feb 3, 2012 12:49:09 AM org.apache.solr.core.SolrDeletionPolicy updateCommits
-INFO: newest commit = 1328220278061
-Feb 3, 2012 12:49:09 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {deleteByQuery=type:User} 0 3
-Feb 3, 2012 12:49:09 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=3 
-Feb 3, 2012 12:49:09 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 1, User 2, User 3, User 4, User 5, User 6, User 7, User 8, ... (8 added)]} 0 13
-Feb 3, 2012 12:49:09 AM org.apache.solr.core.SolrCore execute
+Feb 3, 2012 5:09:32 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: {commit=} 0 13
+Feb 3, 2012 5:09:32 PM org.apache.solr.core.SolrCore execute
 INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=13 
-Feb 3, 2012 12:49:09 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 51, User 52, User 53, User 54, User 55, User 56, User 57, User 58, ... (8 added)]} 0 12
-Feb 3, 2012 12:49:09 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=12 
-Feb 3, 2012 12:49:09 AM org.apache.solr.update.DirectUpdateHandler2 commit
-INFO: start commit(optimize=false,waitFlush=false,waitSearcher=true,expungeDeletes=false)
-Feb 3, 2012 12:49:09 AM org.apache.solr.core.SolrDeletionPolicy onCommit
-INFO: SolrDeletionPolicy.onCommit: commits:num=2
-	commit{dir=/Users/jurrestender/recepten/solr/data/development/index,segFN=segments_2,version=1328220278061,generation=2,filenames=[_0.nrm, _0.tis, _0.fnm, _0.tii, _0.frq, _0_1.del, segments_2, _0.fdx, _0.prx, _0.fdt]
-	commit{dir=/Users/jurrestender/recepten/solr/data/development/index,segFN=segments_3,version=1328220278062,generation=3,filenames=[_0.tis, _0.nrm, _1.tis, _0.fnm, _1.frq, _1.fnm, _1.fdx, _1.prx, _0.tii, _1.fdt, _0.frq, _1.tii, _0.fdx, _0.prx, _0_2.del, _1.nrm, segments_3, _0.fdt]
-Feb 3, 2012 12:49:09 AM org.apache.solr.core.SolrDeletionPolicy updateCommits
-INFO: newest commit = 1328220278062
-Feb 3, 2012 12:49:09 AM org.apache.solr.search.SolrIndexSearcher <init>
-INFO: Opening Searcher@4413515e main
-Feb 3, 2012 12:49:09 AM org.apache.solr.update.DirectUpdateHandler2 commit
-INFO: end_commit_flush
-Feb 3, 2012 12:49:09 AM org.apache.solr.search.SolrIndexSearcher warm
-INFO: autowarming Searcher@4413515e main from Searcher@1faac07d main
-	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
-Feb 3, 2012 12:49:09 AM org.apache.solr.search.SolrIndexSearcher warm
-INFO: autowarming result for Searcher@4413515e main
-	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
-Feb 3, 2012 12:49:09 AM org.apache.solr.search.SolrIndexSearcher warm
-INFO: autowarming Searcher@4413515e main from Searcher@1faac07d main
-	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
-Feb 3, 2012 12:49:09 AM org.apache.solr.search.SolrIndexSearcher warm
-INFO: autowarming result for Searcher@4413515e main
-	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
-Feb 3, 2012 12:49:09 AM org.apache.solr.search.SolrIndexSearcher warm
-INFO: autowarming Searcher@4413515e main from Searcher@1faac07d main
-	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
-Feb 3, 2012 12:49:09 AM org.apache.solr.search.SolrIndexSearcher warm
-INFO: autowarming result for Searcher@4413515e main
-	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
-Feb 3, 2012 12:49:09 AM org.apache.solr.search.SolrIndexSearcher warm
-INFO: autowarming Searcher@4413515e main from Searcher@1faac07d main
-	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
-Feb 3, 2012 12:49:09 AM org.apache.solr.search.SolrIndexSearcher warm
-INFO: autowarming result for Searcher@4413515e main
-	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
-Feb 3, 2012 12:49:09 AM org.apache.solr.core.QuerySenderListener newSearcher
-INFO: QuerySenderListener sending requests to Searcher@4413515e main
-Feb 3, 2012 12:49:09 AM org.apache.solr.core.QuerySenderListener newSearcher
-INFO: QuerySenderListener done.
-Feb 3, 2012 12:49:09 AM org.apache.solr.core.SolrCore registerSearcher
-INFO: [] Registered new searcher Searcher@4413515e main
-Feb 3, 2012 12:49:09 AM org.apache.solr.search.SolrIndexSearcher close
-INFO: Closing Searcher@1faac07d main
-	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
-	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
-	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
-	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
-Feb 3, 2012 12:49:09 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {commit=} 0 46
-Feb 3, 2012 12:49:09 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=46 
-Feb 3, 2012 12:50:24 AM org.apache.solr.core.SolrDeletionPolicy onInit
+Feb 3, 2012 5:09:32 PM org.apache.solr.core.SolrDeletionPolicy onInit
 INFO: SolrDeletionPolicy.onInit: commits:num=1
-	commit{dir=/Users/jurrestender/recepten/solr/data/development/index,segFN=segments_3,version=1328220278062,generation=3,filenames=[_0.tis, _0.nrm, _1.tis, _0.fnm, _1.frq, _1.fnm, _1.fdx, _1.prx, _0.tii, _1.fdt, _0.frq, _1.tii, _0.fdx, _0.prx, _0_2.del, _1.nrm, segments_3, _0.fdt]
-Feb 3, 2012 12:50:24 AM org.apache.solr.core.SolrDeletionPolicy updateCommits
-INFO: newest commit = 1328220278062
-Feb 3, 2012 12:50:24 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {add=[User 101]} 0 6
-Feb 3, 2012 12:50:24 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=6 
-Feb 3, 2012 12:50:24 AM org.apache.solr.update.DirectUpdateHandler2 commit
+	commit{dir=/home/stefan/rorsites/Recipes/solr/data/development/index,segFN=segments_1,version=1328285347360,generation=1,filenames=[segments_1]
+Feb 3, 2012 5:09:32 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1328285347360
+Feb 3, 2012 5:09:32 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: {deleteByQuery=type:User} 0 2
+Feb 3, 2012 5:09:32 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=2 
+Feb 3, 2012 5:09:32 PM org.apache.solr.update.DirectUpdateHandler2 commit
 INFO: start commit(optimize=false,waitFlush=false,waitSearcher=true,expungeDeletes=false)
-Feb 3, 2012 12:50:24 AM org.apache.solr.core.SolrDeletionPolicy onCommit
-INFO: SolrDeletionPolicy.onCommit: commits:num=2
-	commit{dir=/Users/jurrestender/recepten/solr/data/development/index,segFN=segments_3,version=1328220278062,generation=3,filenames=[_0.tis, _0.nrm, _1.tis, _0.fnm, _1.frq, _1.fnm, _1.fdx, _1.prx, _0.tii, _1.fdt, _0.frq, _1.tii, _0.fdx, _0.prx, _0_2.del, _1.nrm, segments_3, _0.fdt]
-	commit{dir=/Users/jurrestender/recepten/solr/data/development/index,segFN=segments_4,version=1328220278063,generation=4,filenames=[_0.tis, _1.frq, _2.tii, _1.fnm, _1.tii, _0.prx, _0.nrm, _0.fnm, _1.tis, _2.prx, _2.fdt, _2.frq, _2.fdx, _2.fnm, _1.prx, _1.fdx, _2.tis, _0.tii, _1.fdt, _0.frq, _0.fdx, _0_2.del, _0.fdt, _1.nrm, _2.nrm, segments_4]
-Feb 3, 2012 12:50:24 AM org.apache.solr.core.SolrDeletionPolicy updateCommits
-INFO: newest commit = 1328220278063
-Feb 3, 2012 12:50:24 AM org.apache.solr.search.SolrIndexSearcher <init>
-INFO: Opening Searcher@4f299f7e main
-Feb 3, 2012 12:50:24 AM org.apache.solr.update.DirectUpdateHandler2 commit
+Feb 3, 2012 5:09:32 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@7857ae58 main
+Feb 3, 2012 5:09:32 PM org.apache.solr.update.DirectUpdateHandler2 commit
 INFO: end_commit_flush
-Feb 3, 2012 12:50:24 AM org.apache.solr.search.SolrIndexSearcher warm
-INFO: autowarming Searcher@4f299f7e main from Searcher@4413515e main
+Feb 3, 2012 5:09:32 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@7857ae58 main from Searcher@3b5b123b main
 	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
-Feb 3, 2012 12:50:24 AM org.apache.solr.search.SolrIndexSearcher warm
-INFO: autowarming result for Searcher@4f299f7e main
+Feb 3, 2012 5:09:32 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@7857ae58 main
 	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
-Feb 3, 2012 12:50:24 AM org.apache.solr.search.SolrIndexSearcher warm
-INFO: autowarming Searcher@4f299f7e main from Searcher@4413515e main
+Feb 3, 2012 5:09:32 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@7857ae58 main from Searcher@3b5b123b main
 	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
-Feb 3, 2012 12:50:24 AM org.apache.solr.search.SolrIndexSearcher warm
-INFO: autowarming result for Searcher@4f299f7e main
+Feb 3, 2012 5:09:32 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@7857ae58 main
 	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
-Feb 3, 2012 12:50:24 AM org.apache.solr.search.SolrIndexSearcher warm
-INFO: autowarming Searcher@4f299f7e main from Searcher@4413515e main
+Feb 3, 2012 5:09:32 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@7857ae58 main from Searcher@3b5b123b main
 	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
-Feb 3, 2012 12:50:24 AM org.apache.solr.search.SolrIndexSearcher warm
-INFO: autowarming result for Searcher@4f299f7e main
+Feb 3, 2012 5:09:32 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@7857ae58 main
 	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
-Feb 3, 2012 12:50:24 AM org.apache.solr.search.SolrIndexSearcher warm
-INFO: autowarming Searcher@4f299f7e main from Searcher@4413515e main
+Feb 3, 2012 5:09:32 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@7857ae58 main from Searcher@3b5b123b main
 	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
-Feb 3, 2012 12:50:24 AM org.apache.solr.search.SolrIndexSearcher warm
-INFO: autowarming result for Searcher@4f299f7e main
+Feb 3, 2012 5:09:32 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@7857ae58 main
 	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
-Feb 3, 2012 12:50:24 AM org.apache.solr.core.QuerySenderListener newSearcher
-INFO: QuerySenderListener sending requests to Searcher@4f299f7e main
-Feb 3, 2012 12:50:24 AM org.apache.solr.core.QuerySenderListener newSearcher
+Feb 3, 2012 5:09:32 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener sending requests to Searcher@7857ae58 main
+Feb 3, 2012 5:09:32 PM org.apache.solr.core.QuerySenderListener newSearcher
 INFO: QuerySenderListener done.
-Feb 3, 2012 12:50:24 AM org.apache.solr.core.SolrCore registerSearcher
-INFO: [] Registered new searcher Searcher@4f299f7e main
-Feb 3, 2012 12:50:24 AM org.apache.solr.search.SolrIndexSearcher close
-INFO: Closing Searcher@4413515e main
+Feb 3, 2012 5:09:32 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [] Registered new searcher Searcher@7857ae58 main
+Feb 3, 2012 5:09:32 PM org.apache.solr.search.SolrIndexSearcher close
+INFO: Closing Searcher@3b5b123b main
 	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
 	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
 	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
 	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
-Feb 3, 2012 12:50:24 AM org.apache.solr.update.processor.LogUpdateProcessor finish
-INFO: {commit=} 0 31
-Feb 3, 2012 12:50:24 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=31 
-Feb 3, 2012 12:50:57 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/select params={wt=ruby&start=0&fq=type:Recipe&q=*:*&rows=5} hits=100 status=0 QTime=10 
-Feb 3, 2012 12:51:03 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/select params={wt=ruby&start=0&fq=type:User&q=*:*&rows=25} hits=101 status=0 QTime=1 
-Feb 3, 2012 1:07:02 AM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/select params={wt=ruby&start=0&fq=type:Recipe&q=*:*&rows=5} hits=100 status=0 QTime=1 
-Feb 3, 2012 1:14:19 PM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/select params={wt=ruby&start=0&fq=type:Recipe&q=*:*&rows=5} hits=100 status=0 QTime=47 
-Feb 3, 2012 1:14:21 PM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/select params={wt=ruby&start=0&fq=type:Recipe&q=*:*&rows=5} hits=100 status=0 QTime=1 
-Feb 3, 2012 1:14:34 PM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/select params={wt=ruby&start=5&fq=type:Recipe&q=*:*&rows=5} hits=100 status=0 QTime=32 
-Feb 3, 2012 1:14:36 PM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/select params={wt=ruby&start=10&fq=type:Recipe&q=*:*&rows=5} hits=100 status=0 QTime=0 
-Feb 3, 2012 1:14:38 PM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/select params={wt=ruby&start=15&fq=type:Recipe&q=*:*&rows=5} hits=100 status=0 QTime=1 
-Feb 3, 2012 3:34:43 PM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/select params={wt=ruby&start=0&fq=type:Recipe&q=*:*&rows=5} hits=100 status=0 QTime=1 
-Feb 3, 2012 3:54:27 PM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/select params={wt=ruby&start=0&fq=type:Recipe&q=*:*&rows=5} hits=100 status=0 QTime=0 
-Feb 3, 2012 3:55:04 PM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/select params={wt=ruby&start=0&fq=type:Recipe&q=*:*&rows=5} hits=100 status=0 QTime=1 
-Feb 3, 2012 4:01:40 PM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/select params={wt=ruby&start=0&fq=type:Recipe&q=*:*&rows=5} hits=100 status=0 QTime=2 
-Feb 3, 2012 4:32:37 PM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/select params={wt=ruby&start=0&fq=type:Recipe&q=*:*&rows=5} hits=100 status=0 QTime=1 
-Feb 3, 2012 4:33:00 PM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/select params={wt=ruby&start=0&fq=type:Recipe&q=*:*&rows=5} hits=100 status=0 QTime=0 
-Feb 3, 2012 4:33:53 PM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/select params={wt=ruby&start=5&fq=type:Recipe&q=*:*&rows=5} hits=100 status=0 QTime=2 
-Feb 3, 2012 4:34:40 PM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/select params={wt=ruby&start=0&fq=type:Recipe&q=*:*&rows=5} hits=100 status=0 QTime=0 
-Feb 3, 2012 4:36:58 PM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/select params={wt=ruby&start=0&fq=type:Recipe&q=*:*&rows=5} hits=100 status=0 QTime=1 
-Feb 3, 2012 4:37:26 PM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/select params={wt=ruby&start=0&fq=type:Recipe&q=*:*&rows=5} hits=100 status=0 QTime=1 
-Feb 3, 2012 4:37:33 PM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/select params={wt=ruby&start=0&fq=type:Recipe&q=*:*&rows=5} hits=100 status=0 QTime=0 
-Feb 3, 2012 4:37:54 PM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/select params={wt=ruby&start=0&fq=type:Recipe&q=*:*&rows=5} hits=100 status=0 QTime=0 
-Feb 3, 2012 4:38:19 PM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/select params={wt=ruby&start=0&fq=type:Recipe&q=*:*&rows=5} hits=100 status=0 QTime=1 
-Feb 3, 2012 4:38:29 PM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/select params={wt=ruby&start=0&fq=type:Recipe&q=*:*&rows=5} hits=100 status=0 QTime=0 
-Feb 3, 2012 4:38:35 PM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/select params={wt=ruby&start=0&fq=type:Recipe&q=*:*&rows=5} hits=100 status=0 QTime=0 
-Feb 3, 2012 4:38:50 PM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/select params={wt=ruby&start=0&fq=type:Recipe&q=*:*&rows=5} hits=100 status=0 QTime=0 
-Feb 3, 2012 4:39:14 PM org.apache.solr.core.SolrCore execute
-INFO: [] webapp=/solr path=/select params={wt=ruby&start=0&fq=type:User&q=*:*&rows=25} hits=101 status=0 QTime=0 
+Feb 3, 2012 5:09:32 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: {commit=} 0 7
+Feb 3, 2012 5:09:32 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=7 
+Feb 3, 2012 5:09:58 PM org.apache.solr.core.SolrDeletionPolicy onInit
+INFO: SolrDeletionPolicy.onInit: commits:num=1
+	commit{dir=/home/stefan/rorsites/Recipes/solr/data/development/index,segFN=segments_1,version=1328285347360,generation=1,filenames=[segments_1]
+Feb 3, 2012 5:09:58 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1328285347360
+Feb 3, 2012 5:09:58 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: {add=[User 1]} 0 29
+Feb 3, 2012 5:09:58 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=29 
+Feb 3, 2012 5:09:58 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: start commit(optimize=false,waitFlush=false,waitSearcher=true,expungeDeletes=false)
+Feb 3, 2012 5:09:59 PM org.apache.solr.core.SolrDeletionPolicy onCommit
+INFO: SolrDeletionPolicy.onCommit: commits:num=2
+	commit{dir=/home/stefan/rorsites/Recipes/solr/data/development/index,segFN=segments_1,version=1328285347360,generation=1,filenames=[segments_1]
+	commit{dir=/home/stefan/rorsites/Recipes/solr/data/development/index,segFN=segments_2,version=1328285347361,generation=2,filenames=[_0.nrm, _0.tis, _0.fnm, _0.tii, _0.frq, segments_2, _0.fdx, _0.prx, _0.fdt]
+Feb 3, 2012 5:09:59 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1328285347361
+Feb 3, 2012 5:09:59 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@75d709a5 main
+Feb 3, 2012 5:09:59 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: end_commit_flush
+Feb 3, 2012 5:09:59 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@75d709a5 main from Searcher@7857ae58 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 3, 2012 5:09:59 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@75d709a5 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 3, 2012 5:09:59 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@75d709a5 main from Searcher@7857ae58 main
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 3, 2012 5:09:59 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@75d709a5 main
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 3, 2012 5:09:59 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@75d709a5 main from Searcher@7857ae58 main
+	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 3, 2012 5:09:59 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@75d709a5 main
+	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 3, 2012 5:09:59 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@75d709a5 main from Searcher@7857ae58 main
+	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 3, 2012 5:09:59 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@75d709a5 main
+	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 3, 2012 5:09:59 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener sending requests to Searcher@75d709a5 main
+Feb 3, 2012 5:09:59 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener done.
+Feb 3, 2012 5:09:59 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [] Registered new searcher Searcher@75d709a5 main
+Feb 3, 2012 5:09:59 PM org.apache.solr.search.SolrIndexSearcher close
+INFO: Closing Searcher@7857ae58 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 3, 2012 5:09:59 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: {commit=} 0 362
+Feb 3, 2012 5:09:59 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=362 
+Feb 3, 2012 5:10:06 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=/solr path=/select params={wt=ruby&start=0&fq=type:Recipe&q=*:*&rows=5} hits=0 status=0 QTime=11 
+Feb 3, 2012 5:10:17 PM org.apache.solr.core.SolrDeletionPolicy onInit
+INFO: SolrDeletionPolicy.onInit: commits:num=1
+	commit{dir=/home/stefan/rorsites/Recipes/solr/data/development/index,segFN=segments_2,version=1328285347361,generation=2,filenames=[_0.nrm, _0.tis, _0.fnm, _0.tii, _0.frq, segments_2, _0.fdx, _0.prx, _0.fdt]
+Feb 3, 2012 5:10:17 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1328285347361
+Feb 3, 2012 5:10:17 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: {add=[Recipe 1]} 0 11
+Feb 3, 2012 5:10:17 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=11 
+Feb 3, 2012 5:10:17 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: start commit(optimize=false,waitFlush=false,waitSearcher=true,expungeDeletes=false)
+Feb 3, 2012 5:10:17 PM org.apache.solr.core.SolrDeletionPolicy onCommit
+INFO: SolrDeletionPolicy.onCommit: commits:num=2
+	commit{dir=/home/stefan/rorsites/Recipes/solr/data/development/index,segFN=segments_2,version=1328285347361,generation=2,filenames=[_0.nrm, _0.tis, _0.fnm, _0.tii, _0.frq, segments_2, _0.fdx, _0.prx, _0.fdt]
+	commit{dir=/home/stefan/rorsites/Recipes/solr/data/development/index,segFN=segments_3,version=1328285347362,generation=3,filenames=[_0.tis, _0.nrm, _0.fnm, _1.tis, _1.frq, _1.fnm, _1.fdx, _1.prx, _0.tii, _1.fdt, _0.frq, _1.tii, _0.fdx, _0.prx, _1.nrm, segments_3, _0.fdt]
+Feb 3, 2012 5:10:17 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1328285347362
+Feb 3, 2012 5:10:17 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@54140fee main
+Feb 3, 2012 5:10:17 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: end_commit_flush
+Feb 3, 2012 5:10:17 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@54140fee main from Searcher@75d709a5 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 3, 2012 5:10:17 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@54140fee main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 3, 2012 5:10:17 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@54140fee main from Searcher@75d709a5 main
+	filterCache{lookups=1,hits=0,hitratio=0.00,inserts=1,evictions=0,size=1,warmupTime=0,cumulative_lookups=1,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=1,cumulative_evictions=0}
+Feb 3, 2012 5:10:17 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@54140fee main
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=1,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=1,cumulative_evictions=0}
+Feb 3, 2012 5:10:17 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@54140fee main from Searcher@75d709a5 main
+	queryResultCache{lookups=1,hits=0,hitratio=0.00,inserts=1,evictions=0,size=1,warmupTime=0,cumulative_lookups=1,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=1,cumulative_evictions=0}
+Feb 3, 2012 5:10:17 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@54140fee main
+	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=1,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=1,cumulative_evictions=0}
+Feb 3, 2012 5:10:17 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@54140fee main from Searcher@75d709a5 main
+	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 3, 2012 5:10:17 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@54140fee main
+	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 3, 2012 5:10:17 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener sending requests to Searcher@54140fee main
+Feb 3, 2012 5:10:17 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener done.
+Feb 3, 2012 5:10:17 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [] Registered new searcher Searcher@54140fee main
+Feb 3, 2012 5:10:17 PM org.apache.solr.search.SolrIndexSearcher close
+INFO: Closing Searcher@75d709a5 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	filterCache{lookups=1,hits=0,hitratio=0.00,inserts=1,evictions=0,size=1,warmupTime=0,cumulative_lookups=1,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=1,cumulative_evictions=0}
+	queryResultCache{lookups=1,hits=0,hitratio=0.00,inserts=1,evictions=0,size=1,warmupTime=0,cumulative_lookups=1,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=1,cumulative_evictions=0}
+	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 3, 2012 5:10:17 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: {commit=} 0 341
+Feb 3, 2012 5:10:17 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=341 
+Feb 3, 2012 5:10:28 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=/solr path=/select params={wt=ruby&start=0&fq=type:Recipe&q=*:*&rows=5} hits=1 status=0 QTime=11 
+Feb 3, 2012 5:10:32 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=/solr path=/select params={wt=ruby&start=0&fq=type:User&q=*:*&rows=25} hits=1 status=0 QTime=2 
+Feb 3, 2012 5:10:39 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=/solr path=/select params={wt=ruby&start=0&fq=type:Recipe&q=*:*&rows=5} hits=1 status=0 QTime=1 

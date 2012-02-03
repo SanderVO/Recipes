@@ -1,11 +1,18 @@
 class User < ActiveRecord::Base
-  attr_accessible :user_id, :name, :picture
+ 	attr_accessible :user_id, :name, :picture
 	mount_uploader :picture, ImageUploader
+
+	# Friendships / Followers
 	has_many :friendships
-  has_many :friends, :through => :friendships
-  has_many :inverse_friendships, :class_name => "Friendship", :foreign_key => "friend_id"
+ 	has_many :friends, :through => :friendships
+ 	has_many :inverse_friendships, :class_name => "Friendship", :foreign_key => "friend_id"
 	has_many :inverse_friends, :through => :inverse_friendships, :source => :user
+
+	# Posts
+	has_many :posts
 	has_many :comments
+	has_many :recipes, :through => :posts
+	has_many :cookbooks, :through => :posts
 
 	# Loads a default image for the user if none has been set. Use this method instead of picture_url
 	def image_url

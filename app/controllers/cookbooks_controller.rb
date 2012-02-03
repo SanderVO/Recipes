@@ -14,6 +14,7 @@ class CookbooksController < ApplicationController
   # GET /cookbooks/1.json
   def show
     @cookbook = Cookbook.find(params[:id])
+    @cookbook.post_id = @cookbook.post
 
     respond_to do |format|
       format.html # show.html.erb
