@@ -16,8 +16,6 @@
 
 # Ignore solr installation (indexes are different for every single database, naturally)
 /solr
-/solr/
-/sunspot-solr.pid
 
 # Ignore all logfiles and tempfiles.
 /log/*.log
