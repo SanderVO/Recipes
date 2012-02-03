@@ -10,6 +10,7 @@ class RecipesController < ApplicationController
       paginate :page => params[:page], :per_page => 5
     end
     @recipes = @search.results
+    @recipe_pictures = RecipePicture.all
   end
 
   # GET /recipes/1

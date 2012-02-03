@@ -1,6 +1,5 @@
-<% @recipes.each do |recipe| %>
-	<%= link_to (image_tag recipe.image_url(:recava)), item.post.user %>	
-	<div class="update-content">
+<%= link_to (image_tag item.image_url(:recava)), item.post.user %>
+<div class="update-content">
 		<div class="update-content-title">
 			Toegevoegd door <%= link_to item.post.user.name, item.post.user %> <span class="update-time"><%= time_ago_in_words(item.created_at) %> ago</span>
 		</div>
@@ -9,4 +8,3 @@
 			<%=  item.description.nil? ? item.instructions.truncate(200) : item.description.truncate(200) %>
 		</div>
 	</div>
-<% end %>
