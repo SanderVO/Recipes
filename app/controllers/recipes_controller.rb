@@ -49,9 +49,10 @@ class RecipesController < ApplicationController
   # POST /recipes.json
   def create
     @recipe = Recipe.new(params[:recipe])
+    @recipe.post_id = @recipe.post
     @recipe.user_id = current_user.id
     @recipe_picture = RecipePicture.new(params[:recipe])
-    
+
     respond_to do |format|
       if @recipe.save && @recipe_picture.save
         format.html { redirect_to @recipe, notice: 'Recipe was successfully created.' }

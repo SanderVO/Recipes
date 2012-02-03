@@ -6,9 +6,13 @@ class UsersController < ApplicationController
     @user = User.find(params[:id])
 
     # Load user's timeline
-    @comments = Comment.where(:user_id => params[:id]).order('created_at desc')
-    @recipes = Recipe.where(:post_id => Post.where(:user_id => 101)).order('created_at desc')
-    @cookbooks = Cookbook.where(:post_id => Post.where(:user_id => 101)).order('created_at desc')
+    @comments = @user.comments.order('created_at desc').limit(5)
+    @recipes = @user.recipes.order('created_at desc').limit(5)
+    @cookbooks = @user.cookbooks.order('created_at desc').limit(5)
+
+    # @comments = Comment.where(:user_id => params[:id]).order('created_at desc')
+    # @recipes = Recipe.where(:post_id => Post.where(:user_id => 101)).order('created_at desc')
+    # @cookbooks = Cookbook.where(:post_id => Post.where(:user_id => 101)).order('created_at desc')
     @timeline = (@comments + @recipes + @cookbooks).sort_by(&:created_at).reverse
 
     respond_to do |format|
