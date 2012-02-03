@@ -22,6 +22,6 @@
 <h2>Gevolgd door</h2>
 <ul>
   <% for user in @user.inverse_friends %>
-    <li><%= link_to user.name, user %></li>
+    <li><p><%= link_to user.name, user %></p></li>
   <% end %>
 </ul>

@@ -1,8 +1,7 @@
-<%= semantic_form_for @user do |f| %>
+<%= semantic_form_for @user, :class => 'form-stacked' do |f| %>
   <div class="field">
-    <%= f.label "Selecteer Foto" %><br>
-    <%= f.file_field :picture %>
-  </div>
+    <b>Selecteer Foto:</b> <%= f.file_field :picture %>
+  </div>	
   <div class="actions">
     <%= f.submit "Update" %>
   </div>
