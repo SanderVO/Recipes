@@ -1,0 +1,27 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1328276084.062133:@value{	I"length:EFiÅI"digest;
+F"%a0d208c716e9655bc3e52e3c3c026e5bI"source;
+FI"Å(function() {
+
+  $(document).ready(function() {
+    var add_fields, remove_fields;
+    $(".close").click(function() {
+      return $(".alert-message").fadeOut(1000, function() {});
+    });
+    remove_fields = function(link) {
+      $(link).previous("input[type=hidden]").value = "1";
+      return $(link).up(".ingredients").hide();
+    };
+    return add_fields = function(link, association, content) {
+      var new_id, regexp;
+      new_id = new Date().getTime();
+      regexp = new RegExp("new_" + association, "g");
+      return $(link).up().insert({
+        before: content.replace(regexp, new_id)
+      });
+    };
+  });
+
+}).call(this);
+;
+FI"_version;
+F"%41db31d33c8c470e70d060daf0a684d2
