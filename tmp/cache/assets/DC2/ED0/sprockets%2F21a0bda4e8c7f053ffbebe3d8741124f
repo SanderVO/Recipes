@@ -1,0 +1,17 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1327434903.706719:@value{I"
+class:EFI"StaticAsset;
+FI"id;
+F"%9edffe8cd518747734df70e8d25a4796I"logical_path;
+FI"image-unknown.jpg;
+TI"pathname;
+FI".$root/app/assets/images/image-unknown.jpg;
+FI"content_type;
+FI"image/jpeg;
+FI"
+mtime;
+FI"2012-01-24T20:53:21+01:00;
+FI"length;
+FI"	1041;
+FI"digest;
+F"%db2ece8d92691c4f260e6de00bf4d0bdI"_version;
+F"%46dde6621c301f4928e3b34efee9e3b5

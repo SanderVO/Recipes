@@ -1,0 +1,26 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1326879938.712467:@value{	I"length:EFi+I"digest;
+F"%125c914ece5ccc02ac30670b8c745f0eI"source;
+FI"+(function($) {
+  return $.extend($.fn, {
+    backboneLink: function(model) {
+      return $(this).find(":input").each(function() {
+        var el, name;
+        el = $(this);
+        name = el.attr("name");
+        model.bind("change:" + name, function() {
+          return el.val(model.get(name));
+        });
+        return $(this).bind("change", function() {
+          var attrs;
+          el = $(this);
+          attrs = {};
+          attrs[el.attr("name")] = el.val();
+          return model.set(attrs);
+        });
+      });
+    }
+  });
+})(jQuery);
+;
+FI"_version;
+F"%1470bd3df34e64e6476467ad81337c64

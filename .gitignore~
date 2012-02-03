@@ -20,8 +20,5 @@
 /sunspot-solr.pid
 
 # Ignore all logfiles and tempfiles.
-log/*.log
 /log/*.log
-tmp/
 /tmp
-/tmp/

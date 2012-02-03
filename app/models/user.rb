@@ -14,38 +14,38 @@ class User < ActiveRecord::Base
 	has_many :recipes, :through => :posts
 	has_many :cookbooks, :through => :posts
 
-# Loads a default image for the user if none has been set. Use this method instead of picture_url
-def image_url
-	# Somehow the picture field returns false for 'nil?' regardless of wether it's set or not
-	# So we'll have to check if the size of the url is 0 to see if it exists
-	# There should be a better way to do this, probably?
-	if self.picture.size == 0
-		self.profile_picture.nil? ? 'image-unknown.jpg' : self.profile_picture
-	else 
-		self.picture.ava
+	# Loads a default image for the user if none has been set. Use this method instead of picture_url
+	def image_url
+		# Somehow the picture field returns false for 'nil?' regardless of wether it's set or not
+		# So we'll have to check if the size of the url is 0 to see if it exists
+		# There should be a better way to do this, probably?
+		if self.picture.size == 0
+			self.profile_picture.nil? ? 'image-unknown.jpg' : self.profile_picture
+		else 
+			self.picture.ava
+		end
 	end
-end
-
-# Check if the user already has an account with this provider, if not, create one
-def self.from_omniauth(auth)
-	find_by_provider_and_uid(auth["provider"], auth["uid"]) || create_with_omniauth(auth)
-end
-
-def self.create_with_omniauth(auth)
-	create! do |user|
-		user.provider = auth["provider"]
-		user.uid = auth["uid"]
-		user.name = auth["info"]["name"]
-		user.profile_picture = auth["info"]["image"]
+	
+	# Check if the user already has an account with this provider, if not, create one
+	def self.from_omniauth(auth)
+		find_by_provider_and_uid(auth["provider"], auth["uid"]) || create_with_omniauth(auth)
 	end
-end
-
-def can_edit?(editable)
-	raise "#{editable} does not have a user" unless !editable.user.nil?
-	editable.user == self # || self.admin? needs to be implemented w/ migration
-end
-
-searchable do 
- 	text :name
-end
+	
+	def self.create_with_omniauth(auth)
+		create! do |user|
+			user.provider = auth["provider"]
+			user.uid = auth["uid"]
+			user.name = auth["info"]["name"]
+			user.profile_picture = auth["info"]["image"]
+		end
+	end
+	
+	def can_edit?(editable)
+		raise "#{editable} does not have a user" unless !editable.user.nil?
+		editable.user == self # || self.admin? needs to be implemented w/ migration
+	end
+	
+	searchable do 
+	 	text :name
+	end
 end

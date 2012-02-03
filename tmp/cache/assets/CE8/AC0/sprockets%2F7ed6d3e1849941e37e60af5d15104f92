@@ -1,0 +1,19 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1327576079.19612:@value{	I"length:EFizI"digest;
+F"%79e78c5369a3ae4dbabb77b67ccf0d94I"source;
+FI"z(function() {
+
+  $(function() {
+    $("#recipes-index, #recipes-index .pagination a").live("click", function() {
+      $.getScript(this.href);
+      return false;
+    });
+    return $("#recipes_search input").keyup(function() {
+      $.get($("#recipes_search").attr("action"), $("#recipes_search").serialize(), null, "script");
+      return false;
+    });
+  });
+
+}).call(this);
+;
+FI"_version;
+F"%c1415cd45160ec4d6db3a0ea8173cf23

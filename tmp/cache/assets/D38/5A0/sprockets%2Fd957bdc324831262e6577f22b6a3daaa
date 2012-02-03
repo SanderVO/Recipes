@@ -1,0 +1,32 @@
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1326884253.049251:@value{	I"length:EFioI"digest;
+F"%9286299fa035276f4fa71989d02c1d63I"source;
+FI"o(function() {
+  var _base,
+    __hasProp = Object.prototype.hasOwnProperty,
+    __extends = function(child, parent) { for (var key in parent) { if (__hasProp.call(parent, key)) child[key] = parent[key]; } function ctor() { this.constructor = child; } ctor.prototype = parent.prototype; child.prototype = new ctor; child.__super__ = parent.prototype; return child; };
+
+  (_base = Recepten.Views).Recipes || (_base.Recipes = {});
+
+  Recepten.Views.Recipes.ShowView = (function(_super) {
+
+    __extends(ShowView, _super);
+
+    function ShowView() {
+      ShowView.__super__.constructor.apply(this, arguments);
+    }
+
+    ShowView.prototype.template = JST["backbone/templates/recipes/show"];
+
+    ShowView.prototype.render = function() {
+      $(this.el).html(this.template(this.model.toJSON()));
+      return this;
+    };
+
+    return ShowView;
+
+  })(Backbone.View);
+
+}).call(this);
+;
+FI"_version;
+F"%fbccad9b9f1eb69d8b8f020b9a73f7c2
