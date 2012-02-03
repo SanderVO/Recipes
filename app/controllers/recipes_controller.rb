@@ -29,7 +29,8 @@ class RecipesController < ApplicationController
   def new
     @recipe = Recipe.new
     @ingredient = Ingredient.new(:recipe_id => @recipe.id)
-    6.times {@recipe.ingredients.build}
+    @recipepicture = RecipePicture.new(:recipe_id => @recipe_id)
+    3.times {@recipe.ingredients.build}
 
     respond_to do |format|
       format.html # new.html.erb
@@ -47,16 +48,7 @@ class RecipesController < ApplicationController
   def create
     @recipe = Recipe.new(params[:recipe])
     @recipe.user_id = current_user.id
-
-    respond_to do |format|
-      if @recipe.save
-        format.html { redirect_to @recipe, notice: 'Recipe was successfully created.' }
-        format.json { render json: @recipe, status: :created, location: @recipe }
-      else
-        format.html { render action: "new" }
-        format.json { render json: @recipe.errors, status: :unprocessable_entity }
-      end
-    end
+    @recipe.save 
   end
 
   # PUT /recipes/1
