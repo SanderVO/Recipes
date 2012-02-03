@@ -9,7 +9,10 @@
         <%= f.input :instructions, :label => "Instructies",  :as => :text,  :input_html => { :rows => 10, :cols => 60, :resize => 'none'} %>
         <%= f.input :preperation_time, :label => "Bereidingstijd" %>
         <%= f.input :course, :label => "Menugang", :as => :select, :collection => ["Amuse", "Voorgerecht", "Hoofdgerecht", "Bijgerecht", "Lunch", "Ontbijt"] %>
-        <!-- <%= render 'recipe_pictures/form', :f => f %> -->
+        <div class="field">
+         <%= f.label :Foto %>
+         <%= f.file_field :image %>
+        </div>
       <% end %>
   </div>
   <div class="span4">
