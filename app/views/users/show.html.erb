@@ -25,9 +25,3 @@
     <li><%= link_to user.name, user %></li>
   <% end %>
 </ul>
-
-<% # Display this user's activity %>
-<p>
-  <h2>Recente activiteit</h2>
-	<%= render 'timeline/timeline', :timeline => @timeline %>
-</p>

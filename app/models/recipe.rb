@@ -1,6 +1,5 @@
 class Recipe < ActiveRecord::Base
 	acts_as :post
-	belongs_to :post
 	has_many :ingredients
  	has_many :items, :through => :ingredients
  	has_many :comments

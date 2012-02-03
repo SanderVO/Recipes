@@ -64,7 +64,7 @@ class RecipesController < ApplicationController
   def update
     @recipe = Recipe.find(params[:id])
     @recipe.user_id = current_user.id
-    @recipe.description = @recipe.description.truncate(200)
+    @recipe.description = @recipe.instructions.truncate(200)
 
     respond_to do |format|
       if @recipe.update_attributes(params[:recipe])
