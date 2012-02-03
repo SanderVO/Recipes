@@ -14,6 +14,7 @@
 /public/uploads
 
 # Ignore the default SQLite database.
+db/*.sqlite3
 /db/*.sqlite3
 
 # Ignore solr installation (indexes are different for every single database, naturally)
@@ -23,5 +24,6 @@
 
 # Ignore all logfiles and tempfiles.
 /log/*.log
+tmp/
 /tmp
 /tmp/
