@@ -1,4 +1,4 @@
-<%= link_to (image_tag item.image_url(:recava)), item.post.user %>
+<%= link_to (image_tag item .image_url(:recava)), item %>
 <div class="update-content">
 		<div class="update-content-title">
 			Toegevoegd door <%= link_to item.post.user.name, item.post.user %> <span class="update-time"><%= time_ago_in_words(item.created_at) %> ago</span>
