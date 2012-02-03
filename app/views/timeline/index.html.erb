@@ -1,16 +1,2 @@
 <%= title 'Nieuwsoverzicht' %>
-<% @timeline.each do |item| %>
-	<% if item.class.name == 'Comment' %>
-		<div class="update">
-			<%= render 'comment', :item => item %>
-		</div>
-	<% elsif item.class.name == 'Recipe' %>
-		<div class="update">
-			<%= render 'recipe', :item => item %>
-		</div>
-	<% elsif item.class.name == 'Cookbook' %>
-		<div class="update">
-			<%= render 'cookbook', :item => item %>
-		</div>
-	<% end %>
-<% end %>
+<%= render 'timeline', :timeline => @timeline %>
