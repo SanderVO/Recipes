@@ -1,9 +1,9 @@
 class User < ActiveRecord::Base
-  	attr_accessible :user_id, :name, :picture
+  attr_accessible :user_id, :name, :picture
 	mount_uploader :picture, ImageUploader
 	has_many :friendships
-  	has_many :friends, :through => :friendships
-  	has_many :inverse_friendships, :class_name => "Friendship", :foreign_key => "friend_id"
+  has_many :friends, :through => :friendships
+  has_many :inverse_friendships, :class_name => "Friendship", :foreign_key => "friend_id"
 	has_many :inverse_friends, :through => :inverse_friendships, :source => :user
 	has_many :comments
 

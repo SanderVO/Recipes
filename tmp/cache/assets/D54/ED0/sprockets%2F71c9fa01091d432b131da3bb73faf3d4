@@ -1,6 +1,6 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1328276083.8481548:@value{	I"length:EFiUŞI"digest;
-F"%c2e0489bf8b3c3a5725bcd7da6193530I"source;
-FI"UŞ@charset "UTF-8";/*
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1328279930.695384:@value{	I"length:EFikŞI"digest;
+F"%7fa73798220587c71244a495bd166a83I"source;
+FI"kŞ@charset "UTF-8";/*
  * This is a manifest file that'll automatically include all the stylesheets available in this directory
  * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
  * the top of the compiled file, but it's generally better to create a new file per style scope.
@@ -3256,44 +3256,45 @@ html, body {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
-  min-height: 60px;
+  min-height: 100px;
 }
 
 /* line 125, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
 .update-content {
   padding-left: 60px;
-  margin-top: -52px;
+  margin-top: -20px;
 }
 
 /* line 130, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
 .update-content a {
+  margin-top: -50px;
   font-weight: bold;
 }
 
-/* line 134, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
+/* line 135, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
 .update-content-text {
   padding-top: 5px;
 }
 
-/* line 138, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
+/* line 139, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
 .update-time {
   font-size: 80%;
   color: #737373;
 }
 
-/* line 143, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
+/* line 144, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
 .recipe-reply {
   padding-left: 0px;
 }
 
-/* line 147, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
+/* line 148, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
 .actions {
   background: transparent;
   border: none;
   margin-top: -15px;
 }
 
-/* line 153, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
+/* line 154, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
 h1 {
   color: #3c5870;
   font-size: 3em;
@@ -3313,52 +3314,52 @@ h1 {
   Â filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
 }
 
-/* line 169, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
+/* line 170, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
 h2, h3, h4, h5, h6 {
   color: #504848;
 }
 
-/* line 173, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
+/* line 174, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
 footer {
   background-color: #8D695D;
 }
 
-/* line 177, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
+/* line 178, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
 .topbar-inner, .topbar, .fill {
   background-color: #353030;
   padding-left: 50px;
   padding-right: 50px;
 }
 
-/* line 183, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
+/* line 184, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
 li {
   font-size: 1.4em;
   line-height: 24px;
 }
 
-/* line 189, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
+/* line 190, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
 .pagination li {
   font-size: 1em;
 }
 
-/* line 193, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
+/* line 194, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
 .auth_providers {
   margin-left: 10px;
 }
 
-/* line 197, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
+/* line 198, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
 .input_fields {
   margin-top: 2px;
   margin-right: 10px;
   margin-left: 30px;
 }
 
-/* line 203, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
+/* line 204, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
 .field {
   margin-bottom: 5px;
 }
 
-/* line 207, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
+/* line 208, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
 .logo {
   position: fixed;
   top: 160px;
@@ -3366,4 +3367,4 @@ li {
 }
 ;
 TI"_version;
-F"%c97c54282b91938ae6fbbc2d296d7867
+F"%01200857aa79e6a06ddd2d71dc8c1199

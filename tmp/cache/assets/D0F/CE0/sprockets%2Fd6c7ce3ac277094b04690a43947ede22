@@ -1,16 +1,16 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1328276083.830467:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1328279930.6844459:@value{I"
 class:EFI"BundledAsset;
 FI"id;
-F"%dc80f4b419dc77932ee2eba86ffe6c1eI"logical_path;
+F"%9593c9433977d90afccb3f7d56dcc7b0I"logical_path;
 F"custom.cssI"pathname;
 FI"1$root/app/assets/stylesheets/custom.css.scss;
 FI"content_type;
 FI"text/css;
 FI"
 mtime;
-FI"2012-02-03T14:22:32+02:00;
+FI"2012-02-03T16:38:48+02:00;
 FI"	body;
-FI"Ý@charset "UTF-8";
+FI"1Ý@charset "UTF-8";
 /*
  * Bootstrap v1.4.0
  *
@@ -3261,44 +3261,45 @@ html, body {
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
-  min-height: 60px;
+  min-height: 100px;
 }
 
 /* line 125, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
 .update-content {
   padding-left: 60px;
-  margin-top: -52px;
+  margin-top: -20px;
 }
 
 /* line 130, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
 .update-content a {
+  margin-top: -50px;
   font-weight: bold;
 }
 
-/* line 134, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
+/* line 135, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
 .update-content-text {
   padding-top: 5px;
 }
 
-/* line 138, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
+/* line 139, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
 .update-time {
   font-size: 80%;
   color: #737373;
 }
 
-/* line 143, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
+/* line 144, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
 .recipe-reply {
   padding-left: 0px;
 }
 
-/* line 147, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
+/* line 148, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
 .actions {
   background: transparent;
   border: none;
   margin-top: -15px;
 }
 
-/* line 153, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
+/* line 154, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
 h1 {
   color: #3c5870;
   font-size: 3em;
@@ -3318,52 +3319,52 @@ h1 {
   Â filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
 }
 
-/* line 169, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
+/* line 170, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
 h2, h3, h4, h5, h6 {
   color: #504848;
 }
 
-/* line 173, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
+/* line 174, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
 footer {
   background-color: #8D695D;
 }
 
-/* line 177, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
+/* line 178, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
 .topbar-inner, .topbar, .fill {
   background-color: #353030;
   padding-left: 50px;
   padding-right: 50px;
 }
 
-/* line 183, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
+/* line 184, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
 li {
   font-size: 1.4em;
   line-height: 24px;
 }
 
-/* line 189, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
+/* line 190, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
 .pagination li {
   font-size: 1em;
 }
 
-/* line 193, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
+/* line 194, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
 .auth_providers {
   margin-left: 10px;
 }
 
-/* line 197, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
+/* line 198, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
 .input_fields {
   margin-top: 2px;
   margin-right: 10px;
   margin-left: 30px;
 }
 
-/* line 203, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
+/* line 204, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
 .field {
   margin-bottom: 5px;
 }
 
-/* line 207, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
+/* line 208, /Users/jurrestender/recepten/app/assets/stylesheets/custom.css.scss */
 .logo {
   position: fixed;
   top: 160px;
@@ -3377,9 +3378,9 @@ F[{I"	path;
 FI"1$root/app/assets/stylesheets/custom.css.scss;
 FI"
 mtime;
-FIu:	Timel€   Z:@_zoneI"EET;
+FIu:	Timen€   ›:@_zoneI"EET;
 T:offseti I"hexdigest;
-F"%26601b1b35cd628c7af7949b4adc253e{I"	path;
+F"%9b26a56991e06016c805c7c928740177{I"	path;
 F"/Users/jurrestender/.rvm/gems/ruby-1.9.3-rc1/gems/anjlab-bootstrap-rails-1.4.0.14/vendor/assets/stylesheets/bootstrap.scssI"
 mtime;
 FIu;L€  Àp;I"EET;
