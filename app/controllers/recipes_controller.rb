@@ -10,6 +10,7 @@ class RecipesController < ApplicationController
       paginate :page => params[:page], :per_page => 5
     end
     @recipes = @search.results
+    @recipe_pictures = RecipePicture.all
   end
 
   # GET /recipes/1
@@ -17,6 +18,7 @@ class RecipesController < ApplicationController
   def show
     @recipe = Recipe.find(params[:id])
     @comment = Comment.new(recipe_id: @recipe.id)
+    @recipe_picture = RecipePicture.find(params[:id])
     
     respond_to do |format|
       format.html # show.html.erb
@@ -29,6 +31,7 @@ class RecipesController < ApplicationController
   def new
     @recipe = Recipe.new
     @ingredient = Ingredient.new(:recipe_id => @recipe.id)
+    @recipe_picture = RecipePicture.new(params[:recipe])
     3.times {@recipe.ingredients.build}
 
     respond_to do |format|
@@ -47,11 +50,13 @@ class RecipesController < ApplicationController
   def create
     @recipe = Recipe.new(params[:recipe])
     @recipe.user_id = current_user.id
-
+    @recipe_picture = RecipePicture.new(params[:recipe])
+    
     respond_to do |format|
-      if @recipe.save
+      if @recipe.save && @recipe_picture.save
         format.html { redirect_to @recipe, notice: 'Recipe was successfully created.' }
         format.json { render json: @recipe, status: :created, location: @recipe }
+        format.json { render json: @recipe_picture, status: :created, location: @image }
       else
         format.html { render action: "new" }
         format.json { render json: @recipe.errors, status: :unprocessable_entity }

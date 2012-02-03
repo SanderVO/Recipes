@@ -1,9 +1,11 @@
 class Recipe < ActiveRecord::Base
+	attr_accessible :name, :instructions, :preperation_time, :description, :image, :course, :ingredients, :post_id, :recipe_id
+	mount_uploader :image, ImageUploader
 	acts_as :post
-	has_many :ingredients
+	has_many :ingredients, :dependent => :destroy
  	has_many :items, :through => :ingredients
  	has_many :comments
- 	accepts_nested_attributes_for :ingredients
+ 	accepts_nested_attributes_for :ingredients, :allow_destroy => true	
 
  	validates :name, :presence => true
  	validates :instructions, :presence => :true

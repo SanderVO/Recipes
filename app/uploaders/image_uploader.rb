@@ -28,4 +28,9 @@ class ImageUploader < CarrierWave::Uploader::Base
   version :ava do
     process :resize_to_fit => [200, 200]
   end
+
+  version :recava do
+    process :resize_to_fit => [50, 50]
+  end
+
 end
