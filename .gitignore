@@ -8,13 +8,10 @@
 /.bundle
 
 # Ignore images, we don want their fat asses all over Github
-/public/images/
-/public/uploads/
 /public/images
 /public/uploads
 
 # Ignore the default SQLite database.
-db/*.sqlite3
 /db/*.sqlite3
 
 # Ignore solr installation (indexes are different for every single database, naturally)
@@ -23,8 +20,5 @@ db/*.sqlite3
 /sunspot-solr.pid
 
 # Ignore all logfiles and tempfiles.
-log/*.log
 /log/*.log
-tmp/
 /tmp
-/tmp/
