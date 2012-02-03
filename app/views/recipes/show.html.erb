@@ -2,7 +2,7 @@
 <div class="row">
   <div class="span10">
   <p>
-    <%= link_to image_tag(@recipe.post.user.image_url, { :height => 35 }), @recipe.post.user %>
+    <%= link_to (image_tag @recipe_picture.image_url(:recpic).to_s), @recipe.post.user %><br>
     Recept door <b><%= link_to @recipe.post.user.name, @recipe.post.user %></b>
   </p>
 
@@ -50,7 +50,9 @@
   <% if !@recipe.ingredients.blank? %>
   <ul>
     <% for ingredient in @recipe.ingredients %>
-    <li><%= ingredient.name %> (<%= ingredient.quantity %>) </li>
+      <% if !ingredient.name.blank? %>
+        <li><%= ingredient.name %> (<%= ingredient.quantity %>) </li>
+      <% end %>
     <% end %>
   </ul>
   <% else %>
