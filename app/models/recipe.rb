@@ -5,6 +5,7 @@ class Recipe < ActiveRecord::Base
 	has_many :ingredients, :dependent => :destroy
  	has_many :items, :through => :ingredients
  	has_many :comments
+ 	has_many :recipe_pictures
  	accepts_nested_attributes_for :ingredients, :allow_destroy => true	
 
  	validates :name, :presence => true
