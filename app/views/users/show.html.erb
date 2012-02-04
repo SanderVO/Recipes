@@ -1,30 +1,33 @@
 <% title 'Profiel' %>
 <% user = @user %>
-<%= image_tag user.image_url %><br>
-<% if current_user == user %>
-<%= link_to 'Wijzig Profiel Foto', edit_user_path(@user) %>
-<% end %>
-<p>
-<b>Naam:</b>
-<%= user.name %>
-</p>
+<div class="span6">
+	<%= image_tag user.image_url %><br>
+	<% if current_user == user %>
+		<%= link_to 'Wijzig Profiel Foto', edit_user_path(@user) %>
+	<% end %>
+	<p>
+	<b>Naam:</b>
+	<%= user.name %>
+	</p>
 
-<h2>Volgt</h2>
-<ul>
-  <% @user.friendships.each do |friendship| %>
-    <li>
-      <p><%= link_to friendship.friend.name, friendship.friend %>
-      <%= link_to "(Remove)", friendship, :method => :delete %></p>
-    </li>
-  <% end %>
-</ul>
+	<h2>Volgt</h2>
+	<ul>
+  		<% @user.friendships.each do |friendship| %>
+    		<li>
+      		<p><%= link_to friendship.friend.name, friendship.friend %>
+      		<%= link_to "(Remove)", friendship, :method => :delete %></p>
+    		</li>
+  		<% end %>
+	</ul>
 
-<h2>Gevolgd door</h2>
-<ul>
-  <% for user in @user.inverse_friends %>
-    <li><p><%= link_to user.name, user %></p></li>
-  <% end %>
-</ul>
+	<h2>Gevolgd door</h2>
+	<ul>
+  		<% for user in @user.inverse_friends %>
+    		<li><p><%= link_to user.name, user %></p></li>
+  		<% end %>
+	</ul>
 
-<h2>Recente activiteit</h2>
-<%= render 'timeline/timeline', :timeline => @timeline %>
+	<h2>Recente activiteit</h2>
+	<%= render 'timeline/timeline', :timeline => @timeline %>
+</div>
+	
