@@ -22,7 +22,7 @@ class UsersController < ApplicationController
   end
 
   def index
-  	@search = User.search do
+  	@search = Sunspot.search(User) do
       fulltext params[:search]
       paginate :page => params[:page], :per_page => 25
     end

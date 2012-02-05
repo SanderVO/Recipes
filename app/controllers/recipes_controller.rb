@@ -5,7 +5,7 @@ class RecipesController < ApplicationController
   # GET /recipes
   # GET /recipes.json
   def index
-    @search = Recipe.search do
+    @search = Sunspot.search(Recipe) do
       fulltext params[:search]
       paginate :page => params[:page], :per_page => 5
     end
