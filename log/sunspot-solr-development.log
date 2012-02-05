@@ -8947,4 +8947,72 @@ Feb 5, 2012 8:35:18 PM org.apache.solr.core.SolrCore execute
 INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=114 
 Feb 5, 2012 8:40:53 PM org.apache.solr.core.SolrCore execute
 INFO: [] webapp=/solr path=/select params={wt=ruby&start=0&fq=type:Recipe&q=*:*&rows=5} hits=1000 status=0 QTime=6 
+<<<<<<< HEAD
 >>>>>>> a36ebdf4ff684d3691260b45e608116835bab6de
+=======
+Feb 5, 2012 8:44:03 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=/solr path=/select params={wt=ruby&start=5&fq=type:Recipe&q=*:*&rows=5} hits=1000 status=0 QTime=10 
+Feb 5, 2012 9:29:17 PM org.apache.solr.core.SolrDeletionPolicy onInit
+INFO: SolrDeletionPolicy.onInit: commits:num=1
+	commit{dir=/Users/jurrestender/recepten/solr/data/development/index,segFN=segments_o,version=1328450285254,generation=24,filenames=[_d.tii, _a.tii, _m.frq, _e.frq, _g_3.del, _c.tii, _k.fnm, _c.tis, _h.fdt, _n.frq, _h.fdx, _c.nrm, _k_1.del, _d.tis, _a.tis, _l.nrm, _d.frq, _a.prx, _g.fdt, _g.fdx, _l.prx, _c.prx, _h.frq, _f.fdt, _f.fdx, _g.nrm, _l.fdx, segments_o, _l.fdt, _c.frq, _a.fnm, _j.fdx, _j.fdt, _k.prx, _l.frq, _e.fdx, _e_3.del, _n.tis, _m.tis, _k.nrm, _e.fdt, _j.nrm, _i.fdx, _i_3.del, _n.tii, _m.tii, _j.prx, _i.fdt, _e.nrm, _g.prx, _n.fdt, _i.frq, _n.fdx, _m.nrm, _d_2.del, _d.prx, _g.frq, _d.fdx, _b.frq, _d.fdt, _m.fdt, _m.fdx, _d.nrm, _c.fnm, _a.nrm, _j.frq, _f.frq, _f.tis, _h.prx, _g.tis, _m.prx, _a_2.del, _c.fdx, _h.nrm, _c.fdt, _i.tis, _k.tii, _g.tii, _i.tii, _f.tii, _m.fnm, _e.fnm, _n.fnm, _k.tis, _f.nrm, _h.fnm, _j_1.del, _a.frq, _d.fnm, _h.tis, _j.tis, _f.prx, _l_2.del, _h.tii, _j.tii, _e.prx, _i.prx, _c_1.del, _h_1.del, _i.nrm, _l.fnm, _k.fdt, _k.fdx, _e.tis, _a.fdt, _b.nrm, _a.fdx, _e.tii, _l.tis, _g.fnm, _b_1.del, _l.tii, _n.nrm, _n.prx, _b.prx, _b.tis, _b.tii, _f.fnm, _f_1.del, _j.fnm, _b.fnm, _b.fdt, _k.frq, _i.fnm, _b.fdx]
+Feb 5, 2012 9:29:17 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1328450285254
+Feb 5, 2012 9:29:17 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: {add=[Recipe 1001]} 0 16
+Feb 5, 2012 9:29:17 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=16 
+Feb 5, 2012 9:29:17 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: start commit(optimize=false,waitFlush=false,waitSearcher=true,expungeDeletes=false)
+Feb 5, 2012 9:29:17 PM org.apache.solr.core.SolrDeletionPolicy onCommit
+INFO: SolrDeletionPolicy.onCommit: commits:num=2
+	commit{dir=/Users/jurrestender/recepten/solr/data/development/index,segFN=segments_o,version=1328450285254,generation=24,filenames=[_d.tii, _a.tii, _m.frq, _e.frq, _g_3.del, _c.tii, _k.fnm, _c.tis, _h.fdt, _n.frq, _h.fdx, _c.nrm, _k_1.del, _d.tis, _a.tis, _l.nrm, _d.frq, _a.prx, _g.fdt, _g.fdx, _l.prx, _c.prx, _h.frq, _f.fdt, _f.fdx, _g.nrm, _l.fdx, segments_o, _l.fdt, _c.frq, _a.fnm, _j.fdx, _j.fdt, _k.prx, _l.frq, _e.fdx, _e_3.del, _n.tis, _m.tis, _k.nrm, _e.fdt, _j.nrm, _i.fdx, _i_3.del, _n.tii, _m.tii, _j.prx, _i.fdt, _e.nrm, _g.prx, _n.fdt, _i.frq, _n.fdx, _m.nrm, _d_2.del, _d.prx, _g.frq, _d.fdx, _b.frq, _d.fdt, _m.fdt, _m.fdx, _d.nrm, _c.fnm, _a.nrm, _j.frq, _f.frq, _f.tis, _h.prx, _g.tis, _m.prx, _a_2.del, _c.fdx, _h.nrm, _c.fdt, _i.tis, _k.tii, _g.tii, _i.tii, _f.tii, _m.fnm, _e.fnm, _n.fnm, _k.tis, _f.nrm, _h.fnm, _j_1.del, _a.frq, _d.fnm, _h.tis, _j.tis, _f.prx, _l_2.del, _h.tii, _j.tii, _e.prx, _i.prx, _c_1.del, _h_1.del, _i.nrm, _l.fnm, _k.fdt, _k.fdx, _e.tis, _a.fdt, _b.nrm, _a.fdx, _e.tii, _l.tis, _g.fnm, _b_1.del, _l.tii, _n.nrm, _n.prx, _b.prx, _b.tis, _b.tii, _f.fnm, _f_1.del, _j.fnm, _b.fnm, _b.fdt, _k.frq, _i.fnm, _b.fdx]
+	commit{dir=/Users/jurrestender/recepten/solr/data/development/index,segFN=segments_p,version=1328450285255,generation=25,filenames=[_d.tii, _a.tii, _m.frq, _e.frq, _g_3.del, _c.tii, _k.fnm, _c.tis, _h.fdt, _n.frq, _h.fdx, _c.nrm, _k_1.del, _d.tis, _o.frq, _a.tis, _l.nrm, _d.frq, _a.prx, _g.fdt, _g.fdx, _l.prx, _c.prx, _h.frq, _f.fdt, _f.fdx, _g.nrm, _l.fdx, segments_p, _l.fdt, _c.frq, _a.fnm, _j.fdx, _j.fdt, _k.prx, _l.frq, _e.fdx, _e_3.del, _n.tis, _m.tis, _k.nrm, _e.fdt, _j.nrm, _i.fdx, _i_3.del, _n.tii, _m.tii, _j.prx, _i.fdt, _e.nrm, _o.fdt, _g.prx, _o.fdx, _n.fdt, _i.frq, _n.fdx, _m.nrm, _d_2.del, _d.prx, _g.frq, _d.fdx, _b.frq, _d.fdt, _o.nrm, _m.fdt, _m.fdx, _d.nrm, _c.fnm, _a.nrm, _j.frq, _f.frq, _f.tis, _h.prx, _g.tis, _m.prx, _a_2.del, _o.tis, _c.fdx, _h.nrm, _c.fdt, _i.tis, _o.prx, _k.tii, _g.tii, _i.tii, _f.tii, _m.fnm, _e.fnm, _n.fnm, _k.tis, _f.nrm, _o.fnm, _h.fnm, _j_1.del, _a.frq, _d.fnm, _h.tis, _j.tis, _f.prx, _o.tii, _l_2.del, _h.tii, _j.tii, _e.prx, _i.prx, _c_1.del, _h_1.del, _i.nrm, _l.fnm, _k.fdt, _k.fdx, _e.tis, _a.fdt, _b.nrm, _a.fdx, _e.tii, _l.tis, _g.fnm, _b_1.del, _l.tii, _n.nrm, _n.prx, _b.prx, _b.tis, _b.tii, _f.fnm, _f_1.del, _j.fnm, _b.fnm, _b.fdt, _k.frq, _i.fnm, _b.fdx]
+Feb 5, 2012 9:29:17 PM org.apache.solr.core.SolrDeletionPolicy updateCommits
+INFO: newest commit = 1328450285255
+Feb 5, 2012 9:29:17 PM org.apache.solr.search.SolrIndexSearcher <init>
+INFO: Opening Searcher@28a2ad63 main
+Feb 5, 2012 9:29:17 PM org.apache.solr.update.DirectUpdateHandler2 commit
+INFO: end_commit_flush
+Feb 5, 2012 9:29:17 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@28a2ad63 main from Searcher@1242bced main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 5, 2012 9:29:17 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@28a2ad63 main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+Feb 5, 2012 9:29:17 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@28a2ad63 main from Searcher@1242bced main
+	filterCache{lookups=1,hits=0,hitratio=0.00,inserts=1,evictions=0,size=1,warmupTime=0,cumulative_lookups=11,cumulative_hits=7,cumulative_hitratio=0.63,cumulative_inserts=4,cumulative_evictions=0}
+Feb 5, 2012 9:29:17 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@28a2ad63 main
+	filterCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=11,cumulative_hits=7,cumulative_hitratio=0.63,cumulative_inserts=4,cumulative_evictions=0}
+Feb 5, 2012 9:29:17 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@28a2ad63 main from Searcher@1242bced main
+	queryResultCache{lookups=2,hits=1,hitratio=0.50,inserts=1,evictions=0,size=1,warmupTime=0,cumulative_lookups=32,cumulative_hits=21,cumulative_hitratio=0.65,cumulative_inserts=11,cumulative_evictions=0}
+Feb 5, 2012 9:29:17 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@28a2ad63 main
+	queryResultCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=32,cumulative_hits=21,cumulative_hitratio=0.65,cumulative_inserts=11,cumulative_evictions=0}
+Feb 5, 2012 9:29:17 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming Searcher@28a2ad63 main from Searcher@1242bced main
+	documentCache{lookups=20,hits=10,hitratio=0.50,inserts=10,evictions=0,size=10,warmupTime=0,cumulative_lookups=890,cumulative_hits=786,cumulative_hitratio=0.88,cumulative_inserts=104,cumulative_evictions=0}
+Feb 5, 2012 9:29:17 PM org.apache.solr.search.SolrIndexSearcher warm
+INFO: autowarming result for Searcher@28a2ad63 main
+	documentCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=890,cumulative_hits=786,cumulative_hitratio=0.88,cumulative_inserts=104,cumulative_evictions=0}
+Feb 5, 2012 9:29:17 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener sending requests to Searcher@28a2ad63 main
+Feb 5, 2012 9:29:17 PM org.apache.solr.core.QuerySenderListener newSearcher
+INFO: QuerySenderListener done.
+Feb 5, 2012 9:29:17 PM org.apache.solr.core.SolrCore registerSearcher
+INFO: [] Registered new searcher Searcher@28a2ad63 main
+Feb 5, 2012 9:29:17 PM org.apache.solr.search.SolrIndexSearcher close
+INFO: Closing Searcher@1242bced main
+	fieldValueCache{lookups=0,hits=0,hitratio=0.00,inserts=0,evictions=0,size=0,warmupTime=0,cumulative_lookups=0,cumulative_hits=0,cumulative_hitratio=0.00,cumulative_inserts=0,cumulative_evictions=0}
+	filterCache{lookups=1,hits=0,hitratio=0.00,inserts=1,evictions=0,size=1,warmupTime=0,cumulative_lookups=11,cumulative_hits=7,cumulative_hitratio=0.63,cumulative_inserts=4,cumulative_evictions=0}
+	queryResultCache{lookups=2,hits=1,hitratio=0.50,inserts=1,evictions=0,size=1,warmupTime=0,cumulative_lookups=32,cumulative_hits=21,cumulative_hitratio=0.65,cumulative_inserts=11,cumulative_evictions=0}
+	documentCache{lookups=20,hits=10,hitratio=0.50,inserts=10,evictions=0,size=10,warmupTime=0,cumulative_lookups=890,cumulative_hits=786,cumulative_hitratio=0.88,cumulative_inserts=104,cumulative_evictions=0}
+Feb 5, 2012 9:29:17 PM org.apache.solr.update.processor.LogUpdateProcessor finish
+INFO: {commit=} 0 50
+Feb 5, 2012 9:29:17 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=/solr path=/update params={wt=ruby} status=0 QTime=50 
+Feb 5, 2012 9:48:06 PM org.apache.solr.core.SolrCore execute
+INFO: [] webapp=/solr path=/select params={wt=ruby&start=0&fq=type:Recipe&q=*:*&rows=5} hits=1001 status=0 QTime=25 
+>>>>>>> de128f324ec82d05f60f61dea25b2cb7eb880758
