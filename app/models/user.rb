@@ -18,12 +18,12 @@ class User < ActiveRecord::Base
 
 	# Loads a default image for the user if none has been set. Use this method instead of picture_url
 	def image_url
-		# Somehow the picture field returns false for 'nil?' regardless of wether it's set or not
-		# So we'll have to check if the size of the url is 0 to see if it exists
-		# There should be a better way to do this, probably?
+	# Somehow the picture field returns false for 'nil?' regardless of wether it's set or not
+	# So we'll have to check if the size of the url is 0 to see if it exists
+	# There should be a better way to do this, probably?
 		if self.picture.size == 0
 			self.profile_picture.nil? ? 'image-unknown.jpg' : self.profile_picture
-		else 
+		else
 			self.picture.ava
 		end
 	end

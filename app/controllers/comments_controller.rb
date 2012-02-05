@@ -47,7 +47,7 @@ class CommentsController < ApplicationController
     @comment.user_id = current_user.id
 
     if @comment.save
-      flash[:notice] = "Successfully created comment."
+      flash[:notice] = "Bericht succesvol geplaatst"
       redirect_to @comment.recipe
     else
       render :action => 'new'
@@ -61,7 +61,7 @@ class CommentsController < ApplicationController
 
     respond_to do |format|
       if @comment.update_attributes(params[:comment])
-        format.html { redirect_to @comment.recipe, notice: 'Comment was successfully updated.' }
+        format.html { redirect_to @comment.recipe, notice: 'Bericht succesvol aangepast' }
         format.json { head :ok }
       else
         format.html { render action: "edit" }
@@ -85,7 +85,7 @@ class CommentsController < ApplicationController
   def authorize
     @comment = Comment.find(params[:id])
     unless @comment.user_id == current_user.id
-      flash[:alert] = "Mind your own!"
+      flash[:alert] = "Hier kan je helemaal niet zijn joh!"
       redirect_to root_path
     end 
   end

@@ -38,7 +38,7 @@ class UsersController < ApplicationController
 
     respond_to do |format|
       if @user.update_attributes(params[:user])
-        format.html { redirect_to @user, notice: 'Profile picture was successfully updated.' }
+        format.html { redirect_to @user, notice: 'Profielfoto succesvol aangepast.' }
         format.json { head :ok }
       else
         format.html { render action: "edit" }

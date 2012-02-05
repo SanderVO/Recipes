@@ -18,7 +18,7 @@ class RecipesController < ApplicationController
   def show
     @recipe = Recipe.find(params[:id])
     @comment = Comment.new(recipe_id: @recipe.id)
-    @recipe_picture = @recipe.recipe_pictures.first
+    @recipe_picture = RecipePicture.find(params[:id])
     
     respond_to do |format|
       format.html # show.html.erb
@@ -64,7 +64,7 @@ class RecipesController < ApplicationController
 
     respond_to do |format|
       if @recipe.save && @recipe_picture.save && @recipe_ingredient.save
-        format.html { redirect_to @recipe, notice: 'Recipe was successfully created.' }
+        format.html { redirect_to @recipe, notice: 'Recept succesvol aangemaakt' }
         format.json { render json: @recipe, status: :created, location: @recipe }
         format.json { render json: @recipe_picture, status: :created, location: @image }
       else
@@ -84,7 +84,7 @@ class RecipesController < ApplicationController
 
     respond_to do |format|
       if @recipe.update_attributes(params[:recipe]) && @recipe_picture.update_attributes(params[:recipe])
-        format.html { redirect_to @recipe, notice: 'Recipe was successfully updated.' }
+        format.html { redirect_to @recipe, notice: 'Recept is bewerkt.' }
         format.json { head :ok }
       else
         format.html { render action: "edit" }

@@ -3,7 +3,11 @@
 <div class="row">
   <div class="span10">
   <p>
-    <%= link_to (image_tag @recipe_picture.image_url(:recpic).to_s), @recipe.post.user %><br>
+    <% if @recipe_picture.id.blank? %>
+      <%= link_to (image_tag ImageUploader.default_url), @recipe.post.user %><br>
+    <% else %>
+      <%= link_to (image_tag @recipe_picture.image_url(:recpic).to_s), @recipe.post.user %><br>
+    <% end %>
     Recept door <b><%= link_to @recipe.post.user.name, @recipe.post.user %></b><br>
     <% if current_user && current_user.can_edit?(@recipe.post) %>
       <%= link_to 'Recept Verwijderen', @recipe, confirm: 'Weet je het zeker?', method: :delete %> ||

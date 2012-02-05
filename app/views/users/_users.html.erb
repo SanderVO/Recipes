@@ -5,9 +5,9 @@
         <%= image_tag user.image_url, {:height => 24}%>
           <%= link_to user.name, user %>
           <% if current_user.friends.exists?(user) %>
-           (already a friend)
+           (is al een vriend)
           <% else %>
-           (<%= link_to "Add Friend", friendships_path(:friend_id => user), :method => :post %>)
+           (<%= link_to "Voeg vriend toe", friendships_path(:friend_id => user), :method => :post %>)
           <% end %>
         <% end %>
       </div>
