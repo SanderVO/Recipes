@@ -18,7 +18,7 @@ class RecipesController < ApplicationController
   def show
     @recipe = Recipe.find(params[:id])
     @comment = Comment.new(recipe_id: @recipe.id)
-    @recipe_picture = RecipePicture.find(params[:id])
+    @recipe_picture = @recipe.recipe_pictures.first
     
     respond_to do |format|
       format.html # show.html.erb
