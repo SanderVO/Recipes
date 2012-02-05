@@ -40,7 +40,6 @@ Recepten::Application.routes.draw do
   match "/signin" => "sessions#new", :as => :signin
 
   match "/timeline" => 'timeline#index', :as => :timeline
-  match "/" => "sessions#new", :as => :signin
 
   # Comments
   #match "/comment/:recipe/" => "comments#new", :as => :comment

@@ -1,7 +1,7 @@
 class Recipe < ActiveRecord::Base
 	acts_as :post
 	
-	attr_accessible :name, :instructions, :preperation_time, :description, :image, :course, :ingredients, :post_id, :recipe_id
+	attr_accessible :name, :instructions, :preperation_time, :description, :image, :course, :ingredients, :post, :recipe_id, :user
 	mount_uploader :image, ImageUploader
 
 	# Relations
