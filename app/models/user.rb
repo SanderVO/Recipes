@@ -1,16 +1,10 @@
 class User < ActiveRecord::Base
-<<<<<<< HEAD
-	# Load Attributes and Uploader
-  	attr_accessible :user_id, :name, :picture
-	mount_uploader :picture, ImageUploader
-
+	
 	# Relations
-=======
  	attr_accessible :user_id, :name, :picture
 	mount_uploader :picture, ImageUploader
 
 	# Friendships / Followers
->>>>>>> 7360d77fb6933a8a02acee1c51f1a757087e753f
 	has_many :friendships
  	has_many :friends, :through => :friendships
  	has_many :inverse_friendships, :class_name => "Friendship", :foreign_key => "friend_id"

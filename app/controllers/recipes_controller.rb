@@ -43,6 +43,14 @@ class RecipesController < ApplicationController
   # GET /recipes/1/edit
   def edit
     @recipe = Recipe.find(params[:id])
+    @ingredient = Ingredient.new(:recipe_id => @recipe.id)
+    @recipe_picture = RecipePicture.new(params[:recipe])
+    3.times {@recipe.ingredients.build}
+
+    respond_to do |format|
+      format.html # new.html.erb
+      format.json { render json: @recipe }
+    end
   end
 
   # POST /recipes
@@ -52,9 +60,10 @@ class RecipesController < ApplicationController
     @recipe.post_id = @recipe.post
     @recipe.user_id = current_user.id
     @recipe_picture = RecipePicture.new(params[:recipe])
+    @recipe_ingredient = Recipe.new(params[:ingredients])
 
     respond_to do |format|
-      if @recipe.save && @recipe_picture.save
+      if @recipe.save && @recipe_picture.save && @recipe_ingredient.save
         format.html { redirect_to @recipe, notice: 'Recipe was successfully created.' }
         format.json { render json: @recipe, status: :created, location: @recipe }
         format.json { render json: @recipe_picture, status: :created, location: @image }
@@ -71,9 +80,10 @@ class RecipesController < ApplicationController
     @recipe = Recipe.find(params[:id])
     @recipe.user_id = current_user.id
     @recipe.description = @recipe.instructions.truncate(200)
+    @recipe_picture = RecipePicture.find(params[:id])
 
     respond_to do |format|
-      if @recipe.update_attributes(params[:recipe])
+      if @recipe.update_attributes(params[:recipe]) && @recipe_picture.update_attributes(params[:recipe])
         format.html { redirect_to @recipe, notice: 'Recipe was successfully updated.' }
         format.json { head :ok }
       else

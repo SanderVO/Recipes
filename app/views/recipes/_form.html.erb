@@ -20,7 +20,7 @@
       <div id="ingredients-fields">
            <%= f.semantic_fields_for :ingredients do |i| %>
                <%= i.inputs do %>
-                 <%= render 'ingredients/form', :i => i %>
+                 <%= render 'ingredient', :i => i %>
                  <% end %>
           <% end %>
       </div>
