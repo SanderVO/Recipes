@@ -1,18 +1,23 @@
 class Recipe < ActiveRecord::Base
+	acts_as :post
+	
 	attr_accessible :name, :instructions, :preperation_time, :description, :image, :course, :ingredients, :post_id, :recipe_id
 	mount_uploader :image, ImageUploader
-	acts_as :post
+
+	# Relations
 	has_many :ingredients, :dependent => :destroy
  	has_many :items, :through => :ingredients
  	has_many :comments
  	has_many :recipe_pictures
  	accepts_nested_attributes_for :ingredients, :allow_destroy => true	
 
+ 	# Validators
  	validates :name, :presence => true
  	validates :instructions, :presence => :true
  	validates :preperation_time, :presence => :true
  	validates :preperation_time, :numericality => { :only_integer => true }
 
+ 	# Solr search
  	searchable :auto_index => true, :auto_remove => true do 
  		text :name, boost: 5
  		text :description, :instructions

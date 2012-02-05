@@ -7,9 +7,6 @@
 	          	<li><%= link_to 'Gebruikers', users_path %></li>
 	          	<li><%= link_to 'Recepten', recipes_path %></li>
 	          </ul>
-	       		<form class="pull-left" action="">
-	       	 		<input type="text" placeholder="Zoeken">
-	      		</form>
 	          <h2 class="current-user">
 		          <%= link_to image_tag(current_user.image_url), current_user %>
 		          <span class="name">
