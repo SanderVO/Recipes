@@ -2,13 +2,15 @@
 <div class="row">
   <div class="span10">
   <p>
-    <%= link_to (image_tag @recipe_picture.image_url(:recpic).to_s), @recipe.post.user %><br>
+    <%= link_to image_tag(@recipe.post.user.image_url), @recipe.post.user %><br>
     Recept door <b><%= link_to @recipe.post.user.name, @recipe.post.user %></b><br>
     <% if current_user %>
-      <%= link_to 'Recept Verwijderen', @recipe, confirm: 'Weet je het zeker?', method: :delete %> ||
+      <%= link_to 'Recept Verwijderen', @recipe, confirm: 'Weet je het zeker?', method: :delete %> |
       <%= link_to 'Recept Aanpassen', edit_recipe_path(@recipe) %><br>
     <% end %>
   </p>
+
+  <p><%= image_tag @recipe.image, height: '300' %> </p>
 
   <p>
     <b>Beschrijving:</b><br />
