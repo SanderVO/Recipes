@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120205174214) do
+ActiveRecord::Schema.define(:version => 20120205212722) do
 
   create_table "active_admin_comments", :force => true do |t|
     t.integer  "resource_id",   :null => false
@@ -93,6 +93,7 @@ ActiveRecord::Schema.define(:version => 20120205174214) do
     t.string   "name"
     t.integer  "unit_id"
     t.integer  "category_id"
+    t.string   "unit"
   end
 
   create_table "likes", :force => true do |t|

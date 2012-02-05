@@ -1,12 +1,8 @@
 class Recipe < ActiveRecord::Base
 	acts_as :post
-	
-<<<<<<< HEAD
+
 	# Attributes
-	attr_accessible :name, :instructions, :preperation_time, :description, :image, :course, :ingredients,:quantity, :ingredient
-=======
-	attr_accessible :name, :instructions, :preperation_time, :description, :image, :course, :ingredients_attributes, :post, :recipe_id, :user
->>>>>>> 420b8fd477a358421c44642fbcf744dbbc02a95a
+	attr_accessible :name, :instructions, :preperation_time, :description, :image, :course, :ingredients_attributes, :post, :recipe_id, :user, :unit
 	mount_uploader :image, ImageUploader
 
 	# Relations
@@ -21,6 +17,7 @@ class Recipe < ActiveRecord::Base
  	validates :instructions, :presence => :true
  	validates :preperation_time, :presence => :true
  	validates :preperation_time, :numericality => { :only_integer => true }
+ 	validates :image, :presence => true
 
  	# Solr search
  	searchable :auto_index => true, :auto_remove => true do 

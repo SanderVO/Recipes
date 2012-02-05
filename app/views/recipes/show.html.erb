@@ -12,6 +12,7 @@
 
   <p><%= image_tag @recipe.image, height: '300' %> </p>
 
+
   <p>
     <b>Beschrijving:</b><br />
     <% if current_user && current_user.can_edit?(@recipe.post) %>
@@ -57,7 +58,7 @@
   <ul>
     <% for ingredient in @recipe.ingredients %>
       <% if !ingredient.name.blank? %>
-        <li><%= ingredient.name %> (<%= ingredient.quantity %>) </li>
+        <li><%= ingredient.name %> (<%= ingredient.quantity %> <%= ingredient.unit %>) </li>
       <% end %>
     <% end %>
   </ul>

@@ -60,13 +60,9 @@ class RecipesController < ApplicationController
     @recipe.post_id = @recipe.post
     @recipe.user_id = current_user.id
     @recipe_picture = RecipePicture.new(params[:recipe])
-<<<<<<< HEAD
-    @recipe_ingredient = Recipe.new(params[:ingredients])
 
-=======
->>>>>>> 420b8fd477a358421c44642fbcf744dbbc02a95a
     respond_to do |format|
-      if @recipe.save && @recipe_picture.save && @recipe_ingredient.save
+      if @recipe.save && @recipe_picture.save
         format.html { redirect_to @recipe, notice: 'Recept succesvol aangemaakt' }
         format.json { render json: @recipe, status: :created, location: @recipe }
         format.json { render json: @recipe_picture, status: :created, location: @image }
